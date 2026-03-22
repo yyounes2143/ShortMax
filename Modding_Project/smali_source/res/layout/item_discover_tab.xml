@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_discover_tab_0" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:binding="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:gravity="center" android:id="@id/title_tv" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="22.0dip" android:maxLines="1" android:shadowColor="@color/color_discover_fragment_tab_shadow" android:shadowDx="0.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:paddingStart="10.0dip" android:paddingEnd="14.0dip" binding:layout_constraintStart_toStartOf="parent" binding:layout_constraintTop_toTopOf="parent" />
+    <View android:tag="binding_2" android:background="@drawable/bg_home_tab_indicator" android:layout_width="16.0dip" android:layout_height="3.0dip" android:layout_marginTop="5.0dip" binding:layout_constraintEnd_toEndOf="@id/title_tv" binding:layout_constraintStart_toStartOf="@id/title_tv" binding:layout_constraintTop_toBottomOf="@id/title_tv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

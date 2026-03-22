@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_shortcut_play_video" android:enabled="true" android:shortcutId="playContinue" android:shortcutShortLabel="@string/continue_watching" android:shortcutLongLabel="@string/continue_watching">
+        <intent android:targetPackage="com.startshorts.androidplayer" android:action="android.intent.action.VIEW" android:data="shorttv://www.shorttv.live/shortcut?actType=playContinue" android:targetClass="com.startshorts.androidplayer.ui.activity.shortcut.ShortCutNavigatorActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_more" android:enabled="true" android:shortcutId="moreDrama" android:shortcutShortLabel="@string/shortcuts_more_drama" android:shortcutLongLabel="@string/shortcuts_more_drama">
+        <intent android:targetPackage="com.startshorts.androidplayer" android:action="android.intent.action.VIEW" android:data="shorttv://www.shorttv.live/shortcut?actType=moreDrama" android:targetClass="com.startshorts.androidplayer.ui.activity.shortcut.ShortCutNavigatorActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_play_history" android:enabled="true" android:shortcutId="playHistory" android:shortcutShortLabel="@string/shortcuts_view_history" android:shortcutLongLabel="@string/shortcuts_view_history">
+        <intent android:targetPackage="com.startshorts.androidplayer" android:action="android.intent.action.VIEW" android:data="shorttv://www.shorttv.live/shortcut?actType=payHistory" android:targetClass="com.startshorts.androidplayer.ui.activity.shortcut.ShortCutNavigatorActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_play_history" android:enabled="true" android:shortcutId="freeBonus" android:shortcutShortLabel="@string/shortcuts_free_bonus" android:shortcutLongLabel="@string/shortcuts_free_bonus">
+        <intent android:targetPackage="com.startshorts.androidplayer" android:action="android.intent.action.VIEW" android:data="shorttv://www.shorttv.live/shortcut?actType=freeBonus" android:targetClass="com.startshorts.androidplayer.ui.activity.shortcut.ShortCutNavigatorActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_play_history" android:enabled="true" android:shortcutId="allFree" android:shortcutShortLabel="@string/subscription_detail_activity_privilege_5_desc" android:shortcutLongLabel="@string/subscription_detail_activity_privilege_5_desc">
+        <intent android:targetPackage="com.startshorts.androidplayer" android:action="android.intent.action.VIEW" android:data="shorttv://www.shorttv.live/shortcut?actType=allFree" android:targetClass="com.startshorts.androidplayer.ui.activity.shortcut.ShortCutNavigatorActivity"/>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_shortcut_play_history" android:enabled="true" android:shortcutId="mayAlsoLike" android:shortcutShortLabel="@string/shortcuts_may_also_like" android:shortcutLongLabel="@string/shortcuts_may_also_like">
+        <intent android:targetPackage="com.startshorts.androidplayer" android:action="android.intent.action.VIEW" android:data="shorttv://www.shorttv.live/shortcut?actType=mayAlsoLike" android:targetClass="com.startshorts.androidplayer.ui.activity.shortcut.ShortCutNavigatorActivity"/>
+    </shortcut>
+</shortcuts>

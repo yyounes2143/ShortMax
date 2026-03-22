@@ -1,0 +1,39 @@
+package com.vungle.ads.internal.task;
+
+import android.os.Bundle;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import kotlin.Metadata;
+import org.jetbrains.annotations.NotNull;
+/* compiled from: Job.kt */
+@Metadata
+/* loaded from: classes7.dex */
+public interface Job {
+
+    /* compiled from: Job.kt */
+    @Metadata
+    @Retention(RetentionPolicy.SOURCE)
+    /* loaded from: classes7.dex */
+    public @interface Result {
+        @NotNull
+        public static final Companion Companion = Companion.$$INSTANCE;
+        public static final int FAILURE = 1;
+        public static final int RESCHEDULE = 2;
+        public static final int SUCCESS = 0;
+
+        /* compiled from: Job.kt */
+        @Metadata
+        /* loaded from: classes7.dex */
+        public static final class Companion {
+            static final /* synthetic */ Companion $$INSTANCE = new Companion();
+            public static final int FAILURE = 1;
+            public static final int RESCHEDULE = 2;
+            public static final int SUCCESS = 0;
+
+            private Companion() {
+            }
+        }
+    }
+
+    int onRunJob(@NotNull Bundle bundle, @NotNull JobRunner jobRunner);
+}

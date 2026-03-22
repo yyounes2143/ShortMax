@@ -1,0 +1,1900 @@
+{
+  "adGroup": {
+    "t1": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/8554574645",
+            "name": "st_gp_开屏_首次_s_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/3788456755",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T1_20240109_3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9508822766",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T1_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3050870408",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T1_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9984874684",
+            "name": "st_gp_开屏激励_all_i_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/1765708897",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T1_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1786245416",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T1_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/7884199844",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6379546484",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7501056460",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/6554010146",
+            "name": "st_gp_原生全场景_d1_n_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7214052366",
+            "name": "st_gp_原生全场景_d1_n_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1822124882",
+            "name": "st_gp_原生全场景_d1_n_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/3708021195",
+            "name": "st_gp_开屏_d1_s_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/3788456755",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T1_20240109_3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9508822766",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T1_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3050870408",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T1_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9984874684",
+            "name": "st_gp_开屏激励_all_i_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/1765708897",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T1_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1786245416",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T1_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/7884199844",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6379546484",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7501056460",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/6554010146",
+            "name": "st_gp_原生全场景_d1_n_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7214052366",
+            "name": "st_gp_原生全场景_d1_n_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1822124882",
+            "name": "st_gp_原生全场景_d1_n_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/1172576941",
+            "name": "st_gp_开屏_d23_s_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/2837792652",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8443530406",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T1_20240102_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2389434587",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T1_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9984874684",
+            "name": "st_gp_开屏激励_all_i_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/1427727813",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5857906308",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T1_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/6187974798",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3561811452",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7631288094",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/7134161310",
+            "name": "st_gp_原生全场景_d23_n_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5569798205",
+            "name": "st_gp_原生全场景_d23_n_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8004389853",
+            "name": "st_gp_原生全场景_d23_n_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/8667923589",
+            "name": "st_gp_开屏_d4_s_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/8846122566",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T1_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1458942356",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T1_20240109_3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3685295220",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T1_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9984874684",
+            "name": "st_gp_开屏激励_all_i_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/1705432201",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T1_20240820_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3216206142",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T1_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5131931811",
+            "name": "st_gp_开屏激励_all_n_atuo_T1_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/4076753139",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5244797904",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9239883239",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/5186654822",
+            "name": "st_gp_原生全场景_d4_n_atuo_T1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3873573159",
+            "name": "st_gp_原生全场景_d4_n_atuo_T1_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2614765135",
+            "name": "st_gp_原生全场景_d4_n_atuo_T1_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t2": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/4174963043",
+            "name": "st_gp_开屏_首次_s_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/9235718033",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5930058499",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3203822807",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T2_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7167139658",
+            "name": "st_gp_开屏激励_all_i_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/8197150292",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4653469999",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/2492272364",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8866109021",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7553027351",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/5873050532",
+            "name": "st_gp_原生全场景_d1_n_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1301683464",
+            "name": "st_gp_原生全场景_d1_n_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6885182630",
+            "name": "st_gp_原生全场景_d1_n_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/2861881372",
+            "name": "st_gp_开屏_d1_s_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/9235718033",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5930058499",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3203822807",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T2_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7167139658",
+            "name": "st_gp_开屏激励_all_i_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/8197150292",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4653469999",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/2492272364",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8866109021",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7553027351",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/5873050532",
+            "name": "st_gp_原生全场景_d1_n_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1301683464",
+            "name": "st_gp_原生全场景_d1_n_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6885182630",
+            "name": "st_gp_原生全场景_d1_n_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/6296911116",
+            "name": "st_gp_开屏_d23_s_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/1823313634",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1364945762",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1237787406",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T2_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7167139658",
+            "name": "st_gp_开屏激励_all_i_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/8337569335",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9714224987",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/6239945689",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1450589795",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4917494847",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/9241513541",
+            "name": "st_gp_原生全场景_d23_n_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3929413474",
+            "name": "st_gp_原生全场景_d23_n_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8307642187",
+            "name": "st_gp_原生全场景_d23_n_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/7236202660",
+            "name": "st_gp_开屏_d4_s_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/9650651002",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4602317347",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1968469044",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T2_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7167139658",
+            "name": "st_gp_开屏激励_all_i_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/5083901790",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3807292188",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T2_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4416210974",
+            "name": "st_gp_开屏激励_all_n_atuo_T2_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/8473596470",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2566663678",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8940500334",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/8335562341",
+            "name": "st_gp_原生全场景_d4_n_atuo_T2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5302268531",
+            "name": "st_gp_原生全场景_d4_n_atuo_T2_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7022480676",
+            "name": "st_gp_原生全场景_d4_n_atuo_T2_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t3": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/3600247979",
+            "name": "st_gp_开屏_首次_s_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/4206752638",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T3_20231229",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8976893198",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T3_20231229_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7663811529",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T3_20231229_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1723241284",
+            "name": "st_gp_开屏激励_all_i_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/5662486298",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4778411318",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T3_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/9604475627",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1525044740",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9211963073",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/4995083134",
+            "name": "st_gp_原生全场景_d1_n_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8990168462",
+            "name": "st_gp_原生全场景_d1_n_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2368919798",
+            "name": "st_gp_原生全场景_d1_n_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/9479222628",
+            "name": "st_gp_开屏_d1_s_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/4206752638",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T3_20231229",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8976893198",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T3_20231229_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7663811529",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T3_20231229_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1723241284",
+            "name": "st_gp_开屏激励_all_i_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/5662486298",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4778411318",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T3_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/9604475627",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1525044740",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9211963073",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/4995083134",
+            "name": "st_gp_原生全场景_d1_n_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8990168462",
+            "name": "st_gp_原生全场景_d1_n_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2368919798",
+            "name": "st_gp_原生全场景_d1_n_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/9974084630",
+            "name": "st_gp_开屏_d23_s_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/5187843578",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3513485001",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T3_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9606413776",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T3_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1723241284",
+            "name": "st_gp_开屏激励_all_i_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/1600732609",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6159829642",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T3_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/1534413916",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6375613419",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5282087236",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/8551184766",
+            "name": "st_gp_原生全场景_d23_n_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4463829583",
+            "name": "st_gp_原生全场景_d23_n_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5925021422",
+            "name": "st_gp_原生全场景_d23_n_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/7135350067",
+            "name": "st_gp_开屏_d4_s_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/4226895945",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3041005427",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T3_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9552279748",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T3_20231127_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1723241284",
+            "name": "st_gp_开屏激励_all_i_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/7622435222",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3987472155",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T3_20231229_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6715071254",
+            "name": "st_gp_开屏激励_all_n_atuo_T3_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/2615561290",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9263933963",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4698002991",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/8797030109",
+            "name": "st_gp_原生全场景_d4_n_atuo_T3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6830908981",
+            "name": "st_gp_原生全场景_d4_n_atuo_T3_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6423778516",
+            "name": "st_gp_原生全场景_d4_n_atuo_T3_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t4": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/3408676283",
+            "name": "st_gp_开屏_首次_s_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/1414355101",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T4_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4337716123",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T4_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9232355122",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T4_20240109_3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8097077944",
+            "name": "st_gp_开屏激励_all_i_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/7920408923",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T4_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2361740730",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T4_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/2698525615",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1123286734",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2012862421",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/2863743811",
+            "name": "st_gp_原生全场景_d1_n_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5733449732",
+            "name": "st_gp_原生全场景_d1_n_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6170866760",
+            "name": "st_gp_原生全场景_d1_n_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/8256860044",
+            "name": "st_gp_开屏_d1_s_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/1414355101",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T4_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4337716123",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T4_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9232355122",
+            "name": "st_gp_激励全场景_d1_rev_atuo_T4_20240109_3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8097077944",
+            "name": "st_gp_开屏激励_all_i_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/7920408923",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T4_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2361740730",
+            "name": "st_gp_插屏全场景_d1_i_atuo_T4_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/2698525615",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1123286734",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2012862421",
+            "name": "st_gp_横幅全场景_d1_banner_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/2863743811",
+            "name": "st_gp_原生全场景_d1_n_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5733449732",
+            "name": "st_gp_原生全场景_d1_n_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6170866760",
+            "name": "st_gp_原生全场景_d1_n_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/8971175911",
+            "name": "st_gp_开屏_d23_s_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/2702099277",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9567101896",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T4_20231229_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4581572360",
+            "name": "st_gp_激励全场景_d23_rev_atuo_T4_20231229_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8097077944",
+            "name": "st_gp_开屏激励_all_i_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/1799262901",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5611328448",
+            "name": "st_gp_插屏全场景_d23_i_atuo_T4_20231127_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/3305030271",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/7132594648",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4506431301",
+            "name": "st_gp_横幅全场景_d23_banner_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/6611417132",
+            "name": "st_gp_原生全场景_d23_n_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4420368062",
+            "name": "st_gp_原生全场景_d23_n_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/4857785095",
+            "name": "st_gp_原生全场景_d23_n_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "ca-app-pub-2254532558538068/2166094417",
+            "name": "st_gp_开屏_d4_s_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "ca-app-pub-2254532558538068/8660104512",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T4_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/9919886303",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T4_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6990115411",
+            "name": "st_gp_激励全场景_d4_rev_atuo_T4_20240109_3",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/8097077944",
+            "name": "st_gp_开屏激励_all_i_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "ca-app-pub-2254532558538068/9207733574",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T4_20240109_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/2560749968",
+            "name": "st_gp_插屏全场景_d4_i_atuo_T4_20240109_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/6739121981",
+            "name": "st_gp_开屏激励_all_n_atuo_T4_兜底",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "ca-app-pub-2254532558538068/5996339469",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/3193349630",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/1880267966",
+            "name": "st_gp_横幅全场景_d4_banner_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "ca-app-pub-2254532558538068/1171451831",
+            "name": "st_gp_原生全场景_d4_n_atuo_T4",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5380529279",
+            "name": "st_gp_原生全场景_d4_n_atuo_T4_20241009_1",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          },
+          {
+            "id": "ca-app-pub-2254532558538068/5648122581",
+            "name": "st_gp_原生全场景_d4_n_atuo_T4_20241009_2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ]
+  }
+}

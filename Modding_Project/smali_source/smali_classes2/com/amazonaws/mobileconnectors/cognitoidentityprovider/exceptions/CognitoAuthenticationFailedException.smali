@@ -1,0 +1,3 @@
+.class public Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoAuthenticationFailedException;
+.super Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoIdentityProviderException;
+.source "CognitoAuthenticationFailedException.java"

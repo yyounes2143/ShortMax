@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_search_no_result_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/no_result_iv" android:layout_width="130.0dip" android:layout_height="94.0dip" android:src="@drawable/ic_search_not_result" android:importantForAccessibility="no" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="14.0sp" android:textColor="@color/color_search_activity_label_tv" android:ellipsize="end" android:id="@id/no_result_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/search_activity_no_result" android:maxLines="1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/no_result_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

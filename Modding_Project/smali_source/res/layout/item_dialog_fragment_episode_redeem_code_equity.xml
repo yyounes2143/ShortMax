@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_dialog_fragment_episode_redeem_code_equity_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/bg_iv" android:layout_width="260.0dip" android:layout_height="56.0dip" android:src="@drawable/bg_redeem_code_btn_2" />
+    <ImageView android:id="@id/left_iv" android:layout_width="50.0dip" android:layout_height="43.0dip" android:src="@drawable/ic_redeem_code_coin_1" app:layout_constraintBottom_toBottomOf="@id/bg_iv" app:layout_constraintEnd_toStartOf="@id/equity_content_fl" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="@id/bg_iv" app:layout_constraintTop_toTopOf="@id/bg_iv" />
+    <ImageView android:id="@id/right_iv" android:layout_width="50.0dip" android:layout_height="43.0dip" android:src="@drawable/ic_redeem_code_coin_1" android:alpha="0.1" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_iv" app:layout_constraintEnd_toEndOf="@id/bg_iv" app:layout_constraintTop_toTopOf="@id/bg_iv" />
+    <FrameLayout android:id="@id/equity_content_fl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="@id/bg_iv" app:layout_constraintEnd_toEndOf="@id/bg_iv" app:layout_constraintStart_toEndOf="@id/left_iv" app:layout_constraintTop_toTopOf="@id/bg_iv">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layoutDirection="ltr">
+            <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="23.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/equity_value_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_typeface="@string/typeface_semi_bold" />
+            <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="15.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/equity_text_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="9.0dip" app:custom_typeface="@string/typeface_semi_bold" />
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

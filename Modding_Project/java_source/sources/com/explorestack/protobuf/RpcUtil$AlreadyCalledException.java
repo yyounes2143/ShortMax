@@ -1,0 +1,7 @@
+package com.explorestack.protobuf;
+/* loaded from: classes3.dex */
+public final class RpcUtil$AlreadyCalledException extends RuntimeException {
+    public RpcUtil$AlreadyCalledException() {
+        super("This RpcCallback was already called and cannot be called multiple times.");
+    }
+}

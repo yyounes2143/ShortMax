@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="@style/AppBaseTheme">
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="FullscreenAdActivity" parent="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+    </style>
+    <style name="mbridge_transparent_common_activity_style" parent="@style/mbridge_common_activity_style" />
+</resources>

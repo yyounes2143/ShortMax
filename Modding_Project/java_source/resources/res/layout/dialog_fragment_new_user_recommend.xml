@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/dialog_fragment_new_user_recommend_0" android:background="@color/color_common_page_bg" android:paddingBottom="@dimen/nav_bar_height_bottom" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recycler_view" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hades.aar.pagestate.StateViewGroup android:id="@+id/page_state_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/toolbar_view" android:layout_width="match_parent" android:layout_height="48dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ImageView android:id="@+id/navigation_iv" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="0dp" android:src="@drawable/ic_toolbar_back" android:contentDescription="@string/back" android:paddingHorizontal="16dp" app:layout_constraintBottom_toBottomOf="@+id/toolbar_view" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/toolbar_view"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

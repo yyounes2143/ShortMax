@@ -1,0 +1,24 @@
+package com.inmobi.media;
+
+import java.util.concurrent.Executors;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.Intrinsics;
+import kotlin.jvm.internal.Lambda;
+/* renamed from: com.inmobi.media.u4  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public final class C3188u4 extends Lambda implements Function0 {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static final C3188u4 f25318a = new C3188u4();
+
+    public C3188u4() {
+        super(0);
+    }
+
+    @Override // kotlin.jvm.functions.Function0
+    public final Object invoke() {
+        ms.i iVar = AbstractC3204v4.f25356a;
+        Intrinsics.checkNotNullExpressionValue("v4", "access$getTAG$p(...)");
+        return Executors.newSingleThreadScheduledExecutor(new K5("v4"));
+    }
+}

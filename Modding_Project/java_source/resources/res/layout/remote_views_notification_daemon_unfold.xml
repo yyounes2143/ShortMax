@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="8dp">
+            <TextView android:textSize="10sp" android:ellipsize="end" android:id="@+id/title_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Notification.Title"/>
+            <TextView android:textSize="12sp" android:ellipsize="end" android:id="@+id/content_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxLines="4" android:lineSpacingExtra="2dp" style="@style/Notification.Content"/>
+        </LinearLayout>
+        <ImageView android:layout_width="60dp" android:layout_height="48dp" android:src="@drawable/ic_notification_daemon" android:importantForAccessibility="no"/>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/enter_button" android:background="@drawable/bg_notification_button" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="12dp" android:textAlignment="gravity"/>
+</LinearLayout>

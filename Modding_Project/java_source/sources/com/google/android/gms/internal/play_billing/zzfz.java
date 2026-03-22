@@ -1,0 +1,16 @@
+package com.google.android.gms.internal.play_billing;
+/* compiled from: com.android.billingclient:billing@@8.0.0 */
+/* loaded from: classes5.dex */
+final class zzfz {
+    private static final zzfy zza;
+
+    static {
+        int i10 = zzgs.zza;
+        zza = new zzfy();
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static zzfy zza() {
+        return zza;
+    }
+}

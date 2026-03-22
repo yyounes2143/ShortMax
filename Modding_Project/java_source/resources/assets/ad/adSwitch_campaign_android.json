@@ -1,0 +1,154 @@
+{
+  "t1": [
+    {
+      "maxActiveTime": 0,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 86400000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 259200000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 33256794784000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    }
+  ],
+  "t2": [
+    {
+      "maxActiveTime": 0,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 86400000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 259200000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 33256794784000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    }
+  ],
+  "t3": [
+    {
+      "maxActiveTime": 0,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 86400000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 259200000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 33256794784000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    }
+  ],
+  "t4": [
+    {
+      "maxActiveTime": 0,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 86400000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 259200000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    },
+    {
+      "maxActiveTime": 33256794784000,
+      "reward": true,
+      "interstitial": false,
+      "appOpen": false,
+      "native": false,
+      "banner": false,
+      "mediaVideo": false
+    }
+  ]
+}

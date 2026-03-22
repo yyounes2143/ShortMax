@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@id/cover_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/banner_pic" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="8.0sp" android:textColor="@android:color/black" android:gravity="center" android:background="@drawable/bg_ad_flag_2" android:layout_width="23.0dip" android:layout_height="18.0dip" android:text="@string/common_ad" android:importantForAccessibility="no" app:custom_typeface="@string/typeface_semi_bold" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

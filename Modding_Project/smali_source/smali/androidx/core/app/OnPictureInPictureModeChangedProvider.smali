@@ -1,0 +1,40 @@
+.class public interface abstract Landroidx/core/app/OnPictureInPictureModeChangedProvider;
+.super Ljava/lang/Object;
+.source "OnPictureInPictureModeChangedProvider.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract addOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
+    .param p1    # Landroidx/core/util/Consumer;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/core/util/Consumer<",
+            "Landroidx/core/app/PictureInPictureModeChangedInfo;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract removeOnPictureInPictureModeChangedListener(Landroidx/core/util/Consumer;)V
+    .param p1    # Landroidx/core/util/Consumer;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/core/util/Consumer<",
+            "Landroidx/core/app/PictureInPictureModeChangedInfo;",
+            ">;)V"
+        }
+    .end annotation
+.end method

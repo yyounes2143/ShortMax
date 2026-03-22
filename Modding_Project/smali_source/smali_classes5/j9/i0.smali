@@ -1,0 +1,253 @@
+.class public final Lj9/i0;
+.super Ljava/lang/Object;
+.source "SessionsActivityLifecycleCallbacks.kt"
+
+# interfaces
+.implements Landroid/app/Application$ActivityLifecycleCallbacks;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# instance fields
+.field private final a:Lj9/k0;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+.field private b:Z
+
+
+# direct methods
+.method public constructor <init>(Lj9/k0;)V
+    .locals 1
+    .param p1    # Lj9/k0;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "sharedSessionRepository"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 7
+    .line 8
+    .line 9
+    iput-object p1, p0, Lj9/i0;->a:Lj9/k0;
+
+    .line 10
+    .line 11
+    const/4 p1, 0x1
+
+    .line 12
+    iput-boolean p1, p0, Lj9/i0;->b:Z
+
+    .line 13
+    .line 14
+    return-void
+.end method
+
+
+# virtual methods
+.method public onActivityCreated(Landroid/app/Activity;Landroid/os/Bundle;)V
+    .locals 0
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Landroid/os/Bundle;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string p2, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, p2}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public onActivityDestroyed(Landroid/app/Activity;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public onActivityPaused(Landroid/app/Activity;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-boolean p1, p0, Lj9/i0;->b:Z
+
+    .line 7
+    .line 8
+    if-eqz p1, :cond_0
+
+    .line 9
+    .line 10
+    iget-object p1, p0, Lj9/i0;->a:Lj9/k0;
+
+    .line 11
+    .line 12
+    invoke-interface {p1}, Lj9/k0;->c()V
+
+    .line 13
+    .line 14
+    .line 15
+    :cond_0
+    return-void
+.end method
+
+.method public onActivityResumed(Landroid/app/Activity;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iget-boolean p1, p0, Lj9/i0;->b:Z
+
+    .line 7
+    .line 8
+    if-eqz p1, :cond_0
+
+    .line 9
+    .line 10
+    iget-object p1, p0, Lj9/i0;->a:Lj9/k0;
+
+    .line 11
+    .line 12
+    invoke-interface {p1}, Lj9/k0;->a()V
+
+    .line 13
+    .line 14
+    .line 15
+    :cond_0
+    return-void
+.end method
+
+.method public onActivitySaveInstanceState(Landroid/app/Activity;Landroid/os/Bundle;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .param p2    # Landroid/os/Bundle;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string p1, "outState"
+
+    .line 7
+    .line 8
+    invoke-static {p2, p1}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 9
+    .line 10
+    .line 11
+    return-void
+.end method
+
+.method public onActivityStarted(Landroid/app/Activity;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+.method public onActivityStopped(Landroid/app/Activity;)V
+    .locals 1
+    .param p1    # Landroid/app/Activity;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string v0, "activity"
+
+    .line 2
+    .line 3
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

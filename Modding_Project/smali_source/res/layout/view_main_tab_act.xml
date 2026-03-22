@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@id/tab_iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/banner_des_act" />
+</merge>

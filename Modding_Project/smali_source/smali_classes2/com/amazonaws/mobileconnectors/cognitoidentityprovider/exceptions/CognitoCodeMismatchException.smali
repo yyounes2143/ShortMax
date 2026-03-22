@@ -1,0 +1,3 @@
+.class public Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoCodeMismatchException;
+.super Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoIdentityProviderException;
+.source "CognitoCodeMismatchException.java"

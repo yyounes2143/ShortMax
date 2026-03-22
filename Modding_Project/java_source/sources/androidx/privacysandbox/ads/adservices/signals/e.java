@@ -1,0 +1,7 @@
+package androidx.privacysandbox.ads.adservices.signals;
+/* compiled from: R8$$SyntheticClass */
+/* loaded from: classes2.dex */
+public final /* synthetic */ class e {
+    public static /* synthetic */ void a() {
+    }
+}

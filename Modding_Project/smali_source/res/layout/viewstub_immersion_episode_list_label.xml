@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/label_iv" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/ic_episode_label" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="12.0sp" android:textColor="@color/color_episode_list_dialog_fragment_episode_label" android:ellipsize="end" android:gravity="start" android:id="@id/label_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:textAlignment="viewStart" android:layout_marginStart="4.0dip" android:layout_marginEnd="16.0dip" app:custom_typeface="@string/typeface_medium" app:layout_constraintBottom_toBottomOf="@id/label_iv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/label_iv" app:layout_constraintTop_toTopOf="@id/label_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,21 @@
+package com.bytedance.applog.log;
+/* loaded from: classes3.dex */
+public abstract class AbsSingleton<T> {
+    private volatile T mInstance;
+
+    protected abstract T create(Object... objArr);
+
+    public final T get(Object... objArr) {
+        if (this.mInstance == null) {
+            synchronized (this) {
+                try {
+                    if (this.mInstance == null) {
+                        this.mInstance = create(objArr);
+                    }
+                } finally {
+                }
+            }
+        }
+        return this.mInstance;
+    }
+}

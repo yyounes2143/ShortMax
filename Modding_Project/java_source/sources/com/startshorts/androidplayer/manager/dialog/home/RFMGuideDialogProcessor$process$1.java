@@ -1,0 +1,37 @@
+package com.startshorts.androidplayer.manager.dialog.home;
+
+import kotlin.Metadata;
+import kotlin.coroutines.jvm.internal.ContinuationImpl;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: RFMGuideDialogProcessor.kt */
+@Metadata
+@kotlin.coroutines.jvm.internal.d(c = "com.startshorts.androidplayer.manager.dialog.home.RFMGuideDialogProcessor", f = "RFMGuideDialogProcessor.kt", l = {49}, m = "process")
+/* loaded from: classes6.dex */
+public final class RFMGuideDialogProcessor$process$1 extends ContinuationImpl {
+
+    /* renamed from: h  reason: collision with root package name */
+    /* synthetic */ Object f42408h;
+
+    /* renamed from: i  reason: collision with root package name */
+    final /* synthetic */ RFMGuideDialogProcessor f42409i;
+
+    /* renamed from: j  reason: collision with root package name */
+    int f42410j;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public RFMGuideDialogProcessor$process$1(RFMGuideDialogProcessor rFMGuideDialogProcessor, rs.c<? super RFMGuideDialogProcessor$process$1> cVar) {
+        super(cVar);
+        this.f42409i = rFMGuideDialogProcessor;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    @Nullable
+    public final Object invokeSuspend(@NotNull Object obj) {
+        this.f42408h = obj;
+        this.f42410j |= Integer.MIN_VALUE;
+        return this.f42409i.b(null, null, this);
+    }
+}

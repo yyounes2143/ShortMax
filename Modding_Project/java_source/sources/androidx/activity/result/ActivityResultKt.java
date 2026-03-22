@@ -1,0 +1,19 @@
+package androidx.activity.result;
+
+import android.content.Intent;
+import kotlin.Metadata;
+import org.jetbrains.annotations.NotNull;
+import org.jetbrains.annotations.Nullable;
+/* compiled from: ActivityResult.kt */
+@Metadata
+/* loaded from: classes.dex */
+public final class ActivityResultKt {
+    public static final int component1(@NotNull ActivityResult activityResult) {
+        return activityResult.getResultCode();
+    }
+
+    @Nullable
+    public static final Intent component2(@NotNull ActivityResult activityResult) {
+        return activityResult.getData();
+    }
+}

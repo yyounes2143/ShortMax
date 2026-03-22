@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/color_subs_type_view_weekly_card_bg_end" android:endColor="@color/color_subs_type_view_weekly_card_bg_start" android:useLevel="true" android:angle="180.0" android:type="linear" />
+    <stroke android:width="1.0dip" android:color="@color/color_subs_type_view_border_card_view" />
+    <corners android:radius="8.0dip" />
+</shape>

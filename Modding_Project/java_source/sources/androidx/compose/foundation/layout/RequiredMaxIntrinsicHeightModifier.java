@@ -1,0 +1,41 @@
+package androidx.compose.foundation.layout;
+
+import androidx.compose.ui.layout.IntrinsicMeasurable;
+import androidx.compose.ui.layout.IntrinsicMeasureScope;
+import androidx.compose.ui.layout.Measurable;
+import androidx.compose.ui.layout.MeasureScope;
+import androidx.compose.ui.unit.Constraints;
+import kotlin.Metadata;
+import kotlin.jvm.internal.Intrinsics;
+import org.jetbrains.annotations.NotNull;
+/* compiled from: Intrinsic.kt */
+@Metadata
+/* loaded from: classes.dex */
+final class RequiredMaxIntrinsicHeightModifier implements IntrinsicSizeModifier {
+    @NotNull
+    public static final RequiredMaxIntrinsicHeightModifier INSTANCE = new RequiredMaxIntrinsicHeightModifier();
+    private static final boolean enforceIncoming = false;
+
+    private RequiredMaxIntrinsicHeightModifier() {
+    }
+
+    @Override // androidx.compose.foundation.layout.IntrinsicSizeModifier
+    /* renamed from: calculateContentConstraints-l58MMJ0 */
+    public long mo431calculateContentConstraintsl58MMJ0(@NotNull MeasureScope calculateContentConstraints, @NotNull Measurable measurable, long j10) {
+        Intrinsics.checkNotNullParameter(calculateContentConstraints, "$this$calculateContentConstraints");
+        Intrinsics.checkNotNullParameter(measurable, "measurable");
+        return Constraints.Companion.m4014fixedHeightOenEA2s(measurable.maxIntrinsicHeight(Constraints.m4005getMaxWidthimpl(j10)));
+    }
+
+    @Override // androidx.compose.foundation.layout.IntrinsicSizeModifier
+    public boolean getEnforceIncoming() {
+        return enforceIncoming;
+    }
+
+    @Override // androidx.compose.foundation.layout.IntrinsicSizeModifier, androidx.compose.ui.layout.LayoutModifier
+    public int minIntrinsicHeight(@NotNull IntrinsicMeasureScope intrinsicMeasureScope, @NotNull IntrinsicMeasurable measurable, int i10) {
+        Intrinsics.checkNotNullParameter(intrinsicMeasureScope, "<this>");
+        Intrinsics.checkNotNullParameter(measurable, "measurable");
+        return measurable.maxIntrinsicHeight(i10);
+    }
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/refresh_layout" android:tag="layout/fragment_discover_0" android:layout_width="match_parent" android:layout_height="match_parent" app:tr_enable_loadmore="false" app:tr_enable_overscroll="false" app:tr_enable_refresh="false" app:tr_floatRefresh="true">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.startshorts.androidplayer.ui.view.base.BaseRecyclerView android:id="@+id/recycler_view" android:layout_width="match_parent" android:layout_height="0dp" android:overScrollMode="never" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.hades.aar.pagestate.StateViewGroup android:id="@+id/page_state_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

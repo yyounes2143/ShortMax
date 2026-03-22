@@ -1,0 +1,9 @@
+package com.bytedance.sdk.openadsdk.core.act;
+
+import androidx.browser.customtabs.CustomTabsClient;
+/* loaded from: classes3.dex */
+public interface ZYk {
+    void oJ();
+
+    void oJ(CustomTabsClient customTabsClient);
+}

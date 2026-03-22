@@ -1,0 +1,76 @@
+.class Lio/bidmachine/media3/ui/d0$f;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "PlayerControlViewLayoutManager.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lio/bidmachine/media3/ui/d0;-><init>(Lio/bidmachine/media3/ui/PlayerControlView;)V
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field final synthetic a:Lio/bidmachine/media3/ui/d0;
+
+
+# direct methods
+.method constructor <init>(Lio/bidmachine/media3/ui/d0;)V
+    .locals 0
+
+    .line 1
+    iput-object p1, p0, Lio/bidmachine/media3/ui/d0$f;->a:Lio/bidmachine/media3/ui/d0;
+
+    .line 2
+    .line 3
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public onAnimationEnd(Landroid/animation/Animator;)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Lio/bidmachine/media3/ui/d0$f;->a:Lio/bidmachine/media3/ui/d0;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x0
+
+    .line 4
+    invoke-static {p1, v0}, Lio/bidmachine/media3/ui/d0;->s(Lio/bidmachine/media3/ui/d0;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method
+
+.method public onAnimationStart(Landroid/animation/Animator;)V
+    .locals 1
+
+    .line 1
+    iget-object p1, p0, Lio/bidmachine/media3/ui/d0$f;->a:Lio/bidmachine/media3/ui/d0;
+
+    .line 2
+    .line 3
+    const/4 v0, 0x4
+
+    .line 4
+    invoke-static {p1, v0}, Lio/bidmachine/media3/ui/d0;->s(Lio/bidmachine/media3/ui/d0;I)V
+
+    .line 5
+    .line 6
+    .line 7
+    return-void
+.end method

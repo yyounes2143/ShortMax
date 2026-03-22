@@ -1,0 +1,14 @@
+.class synthetic Lcom/ss/ttm/player/EGLSurfaceTexture$1;
+.super Ljava/lang/Object;
+.source "EGLSurfaceTexture.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/ss/ttm/player/EGLSurfaceTexture;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

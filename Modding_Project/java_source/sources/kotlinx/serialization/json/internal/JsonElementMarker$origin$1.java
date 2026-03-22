@@ -1,0 +1,29 @@
+package kotlinx.serialization.json.internal;
+
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function2;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+import kotlin.jvm.internal.Intrinsics;
+import kotlinx.serialization.descriptors.SerialDescriptor;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: JsonElementMarker.kt */
+@Metadata
+/* loaded from: classes8.dex */
+public /* synthetic */ class JsonElementMarker$origin$1 extends FunctionReferenceImpl implements Function2<SerialDescriptor, Integer, Boolean> {
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public JsonElementMarker$origin$1(Object obj) {
+        super(2, obj, JsonElementMarker.class, "readIfAbsent", "readIfAbsent(Lkotlinx/serialization/descriptors/SerialDescriptor;I)Z", 0);
+    }
+
+    public final Boolean b(SerialDescriptor p02, int i10) {
+        boolean e10;
+        Intrinsics.checkNotNullParameter(p02, "p0");
+        e10 = ((JsonElementMarker) this.receiver).e(p02, i10);
+        return Boolean.valueOf(e10);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public /* bridge */ /* synthetic */ Boolean invoke(SerialDescriptor serialDescriptor, Integer num) {
+        return b(serialDescriptor, num.intValue());
+    }
+}

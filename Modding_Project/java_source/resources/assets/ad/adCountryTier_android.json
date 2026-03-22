@@ -1,0 +1,26 @@
+[
+  {
+    "tier": "t1",
+    "country": [
+      "gb",
+      "us"
+    ]
+  },
+  {
+    "tier": "t2",
+    "country": [
+      "tw"
+    ]
+  },
+  {
+    "tier": "t3",
+    "country": [
+      "in",
+      "ph"
+    ]
+  },
+  {
+    "tier": "t4",
+    "country": []
+  }
+]

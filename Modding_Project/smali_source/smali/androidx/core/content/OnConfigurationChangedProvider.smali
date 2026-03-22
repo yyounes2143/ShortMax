@@ -1,0 +1,40 @@
+.class public interface abstract Landroidx/core/content/OnConfigurationChangedProvider;
+.super Ljava/lang/Object;
+.source "OnConfigurationChangedProvider.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract addOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
+    .param p1    # Landroidx/core/util/Consumer;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/core/util/Consumer<",
+            "Landroid/content/res/Configuration;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract removeOnConfigurationChangedListener(Landroidx/core/util/Consumer;)V
+    .param p1    # Landroidx/core/util/Consumer;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/core/util/Consumer<",
+            "Landroid/content/res/Configuration;",
+            ">;)V"
+        }
+    .end annotation
+.end method

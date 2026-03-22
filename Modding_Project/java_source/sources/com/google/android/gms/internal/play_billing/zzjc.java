@@ -1,0 +1,26 @@
+package com.google.android.gms.internal.play_billing;
+/* compiled from: com.android.billingclient:billing@@8.0.0 */
+/* loaded from: classes5.dex */
+final class zzjc implements zzfl {
+    static final zzfl zza = new zzjc();
+
+    private zzjc() {
+    }
+
+    @Override // com.google.android.gms.internal.play_billing.zzfl
+    public final boolean zza(int i10) {
+        switch (i10) {
+            case 0:
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+            case 6:
+            case 7:
+                return true;
+            default:
+                return false;
+        }
+    }
+}

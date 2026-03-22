@@ -1,0 +1,11 @@
+package com.inmobi.media;
+
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+/* renamed from: com.inmobi.media.d7  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public abstract class AbstractC2919d7 {
+
+    /* renamed from: a  reason: collision with root package name */
+    public static final SimpleDateFormat f24577a = new SimpleDateFormat("MMM dd, yyyy HH:mm:ss.SSS ZZZZ", Locale.ENGLISH);
+}

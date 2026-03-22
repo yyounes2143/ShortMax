@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_library_classify_item_bg_selected_bg"/>
+            <corners android:radius="90dp"/>
+            <stroke android:width="1dp" android:color="@color/color_library_classify_item_bg_selected"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/color_library_classify_item_bg_normal"/>
+            <corners android:radius="90dp"/>
+        </shape>
+    </item>
+</selector>

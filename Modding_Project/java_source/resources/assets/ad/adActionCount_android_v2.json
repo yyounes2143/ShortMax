@@ -1,0 +1,39 @@
+{
+  "action": {
+    "exitImmersionPage": 3,
+    "noPaidUnlockVideo": 1,
+    "noPaidAndWatchAdEarnBonus": 2
+  },
+  "scene": {
+    "exitImmersionPageEnable": true,
+    "exitImmersionPageCount": 1,
+    "switchTabEnable": false,
+    "switchTabCount": 1,
+    "unlockVideoEnable": true,
+    "unlockVideoCount": 2,
+    "homeRewardIconEnable": true,
+    "homeRewardIconCount": 1,
+    "shortsEnable": false,
+    "shortsIntervalCount": 5,
+    "discoverHorizontalVideoPreviewEnable": false,
+    "immersionFullScreenNativeEnable": false,
+    "immersionPreRollEnable": false,
+    "immersionPreRollUnlockCount": 1,
+    "immersionPostRollEnable": false,
+    "immersionPostRollUnlockCount": 1,
+    "immersionMediaVideoLoadTimeout": 2000
+  },
+  "gap": {
+    "interstitial": 60000,
+    "preloadAppOpen": 600000,
+    "appOpenGapSub": 0,
+    "appOpenSubShowMax": 0,
+    "appOpenGapCoins": 0,
+    "appOpenCoinsShowMax": 0,
+    "appOpenGapOther": 0,
+    "appOpenOtherShowMax": 0
+  },
+  "gdpr": {
+    "showRate": 100
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icon_iv" android:layout_width="20.0dip" android:layout_height="20.0dip" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/content_tv" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="14.0sp" android:textColor="@color/color_common_white" android:ellipsize="end" android:id="@id/content_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="6.0dip" app:custom_typeface="@string/typeface_semi_bold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/icon_iv" app:layout_constraintTop_toTopOf="parent" />
+</merge>

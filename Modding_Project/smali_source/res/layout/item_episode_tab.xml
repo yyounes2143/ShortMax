@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_episode_tab_0" android:layout_width="72.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="13.0sp" android:id="@id/name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_typeface="@string/typeface_medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <ViewStub android:id="@id/divider_line_viewstub" android:layout="@layout/viewstub_episode_tab_divider_line" android:layout_width="fill_parent" android:layout_height="1.5dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

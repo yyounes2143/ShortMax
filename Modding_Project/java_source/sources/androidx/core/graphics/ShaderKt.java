@@ -1,0 +1,19 @@
+package androidx.core.graphics;
+
+import android.graphics.Matrix;
+import android.graphics.Shader;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.jvm.functions.Function1;
+import org.jetbrains.annotations.NotNull;
+/* compiled from: Shader.kt */
+@Metadata
+/* loaded from: classes.dex */
+public final class ShaderKt {
+    public static final void transform(@NotNull Shader shader, @NotNull Function1<? super Matrix, Unit> function1) {
+        Matrix matrix = new Matrix();
+        shader.getLocalMatrix(matrix);
+        function1.invoke(matrix);
+        shader.setLocalMatrix(matrix);
+    }
+}

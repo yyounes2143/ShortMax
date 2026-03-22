@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/color_pure_paying_user_ad_retention_dialog_fragment_watch_ad_button_start" android:endColor="@color/color_pure_paying_user_ad_retention_dialog_fragment_watch_ad_button_end" android:useLevel="true" android:angle="180.0" android:type="linear" android:centerColor="@color/color_pure_paying_user_ad_retention_dialog_fragment_watch_ad_button_center" />
+    <corners android:radius="60.0dip" />
+</shape>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="14sp" android:gravity="center" android:tag="layout/item_play_resolution_text_center_0" android:layout_width="70dp" android:layout_height="36dp" app:custom_typeface="@string/typeface_medium"/>

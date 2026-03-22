@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@+id/video_render_viewstub" android:layout="@layout/viewstub_immersion_video_render" android:inflatedId="@+id/video_render_viewstub" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.startshorts.androidplayer.manager.player.core.SubtitleView android:id="@+id/subtitle_view" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/TextViewStyle.Shadow.Subtitle"/>
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@+id/cover_iv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:layout_gravity="start|top" android:id="@+id/logo_viewstub" android:layout="@layout/viewstub_immersion_logo" android:inflatedId="@+id/logo_viewstub" android:layout_width="75dp" android:layout_height="23dp" android:importantForAccessibility="no" android:layout_marginStart="16dp"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/loading_viewstub" android:layout="@layout/viewstub_episode_loading" android:inflatedId="@+id/loading_viewstub" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <ViewStub android:layout_gravity="center" android:id="@+id/play_button_viewstub" android:layout="@layout/viewstub_episode_play_button" android:inflatedId="@+id/play_button_viewstub" android:layout_width="60dp" android:layout_height="60dp"/>
+    <ViewStub android:layout_gravity="bottom|center_horizontal" android:id="@+id/switching_resolution_viewstub" android:layout="@layout/viewstub_switching_resolution_tip" android:inflatedId="@+id/switching_resolution_viewstub" android:layout_width="wrap_content" android:layout_height="36dp" android:layout_marginBottom="16dp"/>
+    <com.startshorts.androidplayer.ui.view.immersion.ImmersionControlLayout android:id="@+id/v_immersion_control" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

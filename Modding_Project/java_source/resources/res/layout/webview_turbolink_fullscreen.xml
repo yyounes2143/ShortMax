@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:fitsSystemWindows="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:orientation="vertical" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <Button android:gravity="center_vertical" android:id="@+id/titleBack" android:background="@drawable/ic_baseline_arrow_back_ios_24" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginTop="40dp" android:layout_marginStart="15dp" style="@style/Widget.AppCompat.Button.Borderless"/>
+    </FrameLayout>
+    <FrameLayout android:id="@+id/loadingOverlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/loadingLogo" android:visibility="gone" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/loadingProgressBar" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:indeterminateTint="#7367f0" style="?android:attr/progressBarStyle"/>
+    </FrameLayout>
+    <include android:id="@+id/errorView" android:visibility="gone" layout="@layout/error_page"/>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

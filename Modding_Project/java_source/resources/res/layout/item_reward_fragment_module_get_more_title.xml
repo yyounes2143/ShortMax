@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="18sp" android:textColor="@android:color/white" android:tag="layout/item_reward_fragment_module_get_more_title_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/rewards_activity_get_more_bonus" android:layout_marginStart="12dp" app:custom_typeface="@string/typeface_bold"/>

@@ -1,0 +1,582 @@
+.class public final Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+.super Ljava/lang/Object;
+.source "AvailableExpansionSku.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# instance fields
+.field private final createTime:J
+
+.field private final expirationTime:J
+
+.field private final sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>(Lcom/startshorts/androidplayer/bean/purchase/CoinSku;JJ)V
+    .locals 1
+    .param p1    # Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+
+    .line 1
+    const-string/jumbo v0, "sku"
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 5
+    .line 6
+    .line 7
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 8
+    .line 9
+    .line 10
+    iput-object p1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 11
+    .line 12
+    iput-wide p2, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 13
+    .line 14
+    iput-wide p4, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 15
+    .line 16
+    return-void
+.end method
+
+.method public static synthetic copy$default(Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;Lcom/startshorts/androidplayer/bean/purchase/CoinSku;JJILjava/lang/Object;)Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+    .locals 2
+
+    .line 1
+    and-int/lit8 p7, p6, 0x1
+
+    .line 2
+    .line 3
+    if-eqz p7, :cond_0
+
+    .line 4
+    .line 5
+    iget-object p1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 6
+    .line 7
+    :cond_0
+    and-int/lit8 p7, p6, 0x2
+
+    .line 8
+    .line 9
+    if-eqz p7, :cond_1
+
+    .line 10
+    .line 11
+    iget-wide p2, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 12
+    .line 13
+    :cond_1
+    move-wide v0, p2
+
+    .line 14
+    and-int/lit8 p2, p6, 0x4
+
+    .line 15
+    .line 16
+    if-eqz p2, :cond_2
+
+    .line 17
+    .line 18
+    iget-wide p4, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 19
+    .line 20
+    :cond_2
+    move-wide p6, p4
+
+    .line 21
+    move-object p2, p0
+
+    .line 22
+    move-object p3, p1
+
+    .line 23
+    move-wide p4, v0
+
+    .line 24
+    invoke-virtual/range {p2 .. p7}, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->copy(Lcom/startshorts/androidplayer/bean/purchase/CoinSku;JJ)Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+
+    .line 25
+    .line 26
+    .line 27
+    move-result-object p0
+
+    .line 28
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public final available()Z
+    .locals 4
+
+    .line 1
+    sget-object v0, Lcom/startshorts/androidplayer/utils/DeviceUtil;->a:Lcom/startshorts/androidplayer/utils/DeviceUtil;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Lcom/startshorts/androidplayer/utils/DeviceUtil;->K()J
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-wide v0
+
+    .line 7
+    iget-wide v2, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 8
+    .line 9
+    cmp-long v0, v0, v2
+
+    .line 10
+    .line 11
+    if-gez v0, :cond_0
+
+    .line 12
+    .line 13
+    const/4 v0, 0x1
+
+    .line 14
+    goto :goto_0
+
+    .line 15
+    :cond_0
+    const/4 v0, 0x0
+
+    .line 16
+    :goto_0
+    return v0
+.end method
+
+.method public final component1()Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public final component2()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final component3()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final copy(Lcom/startshorts/androidplayer/bean/purchase/CoinSku;JJ)Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+    .locals 7
+    .param p1    # Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    const-string/jumbo v0, "sku"
+
+    .line 2
+    .line 3
+    .line 4
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 5
+    .line 6
+    .line 7
+    new-instance v0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+
+    .line 8
+    .line 9
+    move-object v1, v0
+
+    .line 10
+    move-object v2, p1
+
+    .line 11
+    move-wide v3, p2
+
+    .line 12
+    move-wide v5, p4
+
+    .line 13
+    invoke-direct/range {v1 .. v6}, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;-><init>(Lcom/startshorts/androidplayer/bean/purchase/CoinSku;JJ)V
+
+    .line 14
+    .line 15
+    .line 16
+    return-object v0
+.end method
+
+.method public equals(Ljava/lang/Object;)Z
+    .locals 7
+    .param p1    # Ljava/lang/Object;
+        .annotation build Lorg/jetbrains/annotations/Nullable;
+        .end annotation
+    .end param
+
+    .line 1
+    const/4 v0, 0x1
+
+    .line 2
+    if-ne p0, p1, :cond_0
+
+    .line 3
+    .line 4
+    return v0
+
+    .line 5
+    :cond_0
+    instance-of v1, p1, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+
+    .line 6
+    .line 7
+    const/4 v2, 0x0
+
+    .line 8
+    if-nez v1, :cond_1
+
+    .line 9
+    .line 10
+    return v2
+
+    .line 11
+    :cond_1
+    check-cast p1, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;
+
+    .line 12
+    .line 13
+    iget-object v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 14
+    .line 15
+    iget-object v3, p1, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 16
+    .line 17
+    invoke-static {v1, v3}, Lkotlin/jvm/internal/Intrinsics;->areEqual(Ljava/lang/Object;Ljava/lang/Object;)Z
+
+    .line 18
+    .line 19
+    .line 20
+    move-result v1
+
+    .line 21
+    if-nez v1, :cond_2
+
+    .line 22
+    .line 23
+    return v2
+
+    .line 24
+    :cond_2
+    iget-wide v3, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 25
+    .line 26
+    iget-wide v5, p1, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 27
+    .line 28
+    cmp-long v1, v3, v5
+
+    .line 29
+    .line 30
+    if-eqz v1, :cond_3
+
+    .line 31
+    .line 32
+    return v2
+
+    .line 33
+    :cond_3
+    iget-wide v3, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 34
+    .line 35
+    iget-wide v5, p1, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 36
+    .line 37
+    cmp-long p1, v3, v5
+
+    .line 38
+    .line 39
+    if-eqz p1, :cond_4
+
+    .line 40
+    .line 41
+    return v2
+
+    .line 42
+    :cond_4
+    return v0
+.end method
+
+.method public final getCreateTime()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final getExpirationTime()J
+    .locals 2
+
+    .line 1
+    iget-wide v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 2
+    .line 3
+    return-wide v0
+.end method
+
+.method public final getSku()Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 2
+    .line 3
+    return-object v0
+.end method
+
+.method public hashCode()I
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 2
+    .line 3
+    invoke-virtual {v0}, Ljava/lang/Object;->hashCode()I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 8
+    .line 9
+    iget-wide v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 10
+    .line 11
+    invoke-static {v1, v2}, Ljava/lang/Long;->hashCode(J)I
+
+    .line 12
+    .line 13
+    .line 14
+    move-result v1
+
+    .line 15
+    add-int/2addr v0, v1
+
+    .line 16
+    mul-int/lit8 v0, v0, 0x1f
+
+    .line 17
+    .line 18
+    iget-wide v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 19
+    .line 20
+    invoke-static {v1, v2}, Ljava/lang/Long;->hashCode(J)I
+
+    .line 21
+    .line 22
+    .line 23
+    move-result v1
+
+    .line 24
+    add-int/2addr v0, v1
+
+    .line 25
+    return v0
+.end method
+
+.method public final refreshRetentionSeconds()V
+    .locals 5
+
+    .line 1
+    iget-object v0, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 2
+    .line 3
+    iget-wide v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 4
+    .line 5
+    sget-object v3, Lcom/startshorts/androidplayer/utils/DeviceUtil;->a:Lcom/startshorts/androidplayer/utils/DeviceUtil;
+
+    .line 6
+    .line 7
+    invoke-virtual {v3}, Lcom/startshorts/androidplayer/utils/DeviceUtil;->K()J
+
+    .line 8
+    .line 9
+    .line 10
+    move-result-wide v3
+
+    .line 11
+    sub-long/2addr v1, v3
+
+    .line 12
+    const/16 v3, 0x3e8
+
+    .line 13
+    .line 14
+    int-to-long v3, v3
+
+    .line 15
+    div-long/2addr v1, v3
+
+    .line 16
+    invoke-virtual {v0, v1, v2}, Lcom/startshorts/androidplayer/bean/purchase/CoinSku;->setRetentionSeconds(J)V
+
+    .line 17
+    .line 18
+    .line 19
+    return-void
+.end method
+
+.method public toString()Ljava/lang/String;
+    .locals 3
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    .line 1
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    const-string v1, "AvailableExpansionSku(sku="
+
+    .line 7
+    .line 8
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 9
+    .line 10
+    .line 11
+    iget-object v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->sku:Lcom/startshorts/androidplayer/bean/purchase/CoinSku;
+
+    .line 12
+    .line 13
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/Object;)Ljava/lang/StringBuilder;
+
+    .line 14
+    .line 15
+    .line 16
+    const-string v1, ", createTime="
+
+    .line 17
+    .line 18
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 19
+    .line 20
+    .line 21
+    iget-wide v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->createTime:J
+
+    .line 22
+    .line 23
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 24
+    .line 25
+    .line 26
+    const-string v1, ", expirationTime="
+
+    .line 27
+    .line 28
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    .line 29
+    .line 30
+    .line 31
+    iget-wide v1, p0, Lcom/startshorts/androidplayer/bean/purchase/AvailableExpansionSku;->expirationTime:J
+
+    .line 32
+    .line 33
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->append(J)Ljava/lang/StringBuilder;
+
+    .line 34
+    .line 35
+    .line 36
+    const/16 v1, 0x29
+
+    .line 37
+    .line 38
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
+
+    .line 39
+    .line 40
+    .line 41
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    .line 42
+    .line 43
+    .line 44
+    move-result-object v0
+
+    .line 45
+    return-object v0
+.end method

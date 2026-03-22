@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_discover_module_banner_3_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@id/top_space_v" android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <View android:background="@drawable/bg_discover_banner_bottom_3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="@id/top_space_v" app:layout_constraintEnd_toEndOf="@id/top_space_v" app:layout_constraintStart_toStartOf="@id/top_space_v" app:layout_constraintTop_toTopOf="@id/top_space_v" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip" />
+    <com.startshorts.androidplayer.ui.view.discover.BannerIndicatorCircleView android:id="@id/indicator_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="17.0dip" android:layout_marginEnd="50.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

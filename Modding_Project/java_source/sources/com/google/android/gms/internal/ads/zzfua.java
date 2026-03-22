@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.ads;
+
+import androidx.annotation.Nullable;
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+/* loaded from: classes4.dex */
+public abstract class zzfua {
+    public static zzftz zzc() {
+        zzfsw zzfswVar = new zzfsw();
+        zzfswVar.zzb(8150);
+        return zzfswVar;
+    }
+
+    public abstract int zza();
+
+    @Nullable
+    public abstract String zzb();
+}

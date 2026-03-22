@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center" android:background="@drawable/bg_profile_top_up" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/profile_fragment_top_up" android:textAlignment="gravity" android:paddingHorizontal="12.0dip" android:paddingVertical="4.0dip" app:custom_typeface="@string/typeface_bold" app:layout_minWidth="75.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

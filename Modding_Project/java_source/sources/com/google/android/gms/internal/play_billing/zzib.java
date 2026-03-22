@@ -1,0 +1,85 @@
+package com.google.android.gms.internal.play_billing;
+/* compiled from: com.android.billingclient:billing@@8.0.0 */
+/* loaded from: classes5.dex */
+public final class zzib extends zzfi implements zzgm {
+    private static final zzib zzb;
+    private int zzd;
+    private int zze = 0;
+    private Object zzf;
+    private int zzg;
+    private int zzh;
+
+    static {
+        zzib zzibVar = new zzib();
+        zzb = zzibVar;
+        zzfi.zzw(zzib.class, zzibVar);
+    }
+
+    private zzib() {
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ void zzB(zzib zzibVar, zzil zzilVar) {
+        zzibVar.zzh = zzilVar.zza();
+        zzibVar.zzd |= 2;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ void zzC(zzib zzibVar, zziz zzizVar) {
+        zzizVar.getClass();
+        zzibVar.zzf = zzizVar;
+        zzibVar.zze = 2;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ void zzD(zzib zzibVar, zzjf zzjfVar) {
+        zzjfVar.getClass();
+        zzibVar.zzf = zzjfVar;
+        zzibVar.zze = 4;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ void zzE(zzib zzibVar, zzjv zzjvVar) {
+        zzjvVar.getClass();
+        zzibVar.zzf = zzjvVar;
+        zzibVar.zze = 3;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static /* synthetic */ void zzF(zzib zzibVar, int i10) {
+        zzibVar.zzg = i10 - 1;
+        zzibVar.zzd |= 1;
+    }
+
+    public static zzhz zzc() {
+        return (zzhz) zzb.zzl();
+    }
+
+    public final zzjf zzA() {
+        if (this.zze == 4) {
+            return (zzjf) this.zzf;
+        }
+        return zzjf.zzd();
+    }
+
+    @Override // com.google.android.gms.internal.play_billing.zzfi
+    protected final Object zzb(int i10, Object obj, Object obj2) {
+        int i11 = i10 - 1;
+        if (i11 != 0) {
+            if (i11 != 2) {
+                if (i11 != 3) {
+                    if (i11 != 4) {
+                        if (i11 == 5) {
+                            return zzb;
+                        }
+                        throw null;
+                    }
+                    return new zzhz(null);
+                }
+                return new zzib();
+            }
+            return zzfi.zzt(zzb, "\u0004\u0005\u0001\u0001\u0001\u0005\u0005\u0000\u0000\u0000\u0001᠌\u0000\u0002<\u0000\u0003<\u0000\u0004<\u0000\u0005᠌\u0001", new Object[]{"zzf", "zze", "zzd", "zzg", zzhy.zza, zziz.class, zzjv.class, zzjf.class, "zzh", zzik.zza});
+        }
+        return (byte) 1;
+    }
+}

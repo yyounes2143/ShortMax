@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginEnd="12.0dip">
+            <TextView android:ellipsize="end" android:id="@id/title_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Notification.Title" />
+            <TextView android:ellipsize="end" android:id="@id/content_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:maxLines="3" style="@style/Notification.Content" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/iv_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ntf_subscribe_icon" android:importantForAccessibility="no" android:layout_marginEnd="2.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/subs_bonus_button" android:background="@drawable/bg_notification_button_new" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="16.0dip" android:text="@string/claim_now" />
+</LinearLayout>

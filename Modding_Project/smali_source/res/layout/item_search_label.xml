@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="11.0sp" android:textColor="@color/color_search_activity_label_tv" android:ellipsize="end" android:gravity="start|center" android:id="@id/search_label_tv" android:tag="layout/item_search_label_0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLines="1" android:textAlignment="viewStart" android:paddingStart="12.0dip" android:paddingEnd="38.0dip" app:custom_typeface="@string/typeface_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

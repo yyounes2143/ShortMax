@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="12dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="11sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:background="@drawable/bg_permanent_notification_tag" android:paddingLeft="4dp" android:paddingRight="4dp" android:paddingBottom="0.5dp" android:layout_width="wrap_content" android:layout_height="15dp" android:text="@string/now_tag" android:paddingHorizontal="4dp"/>
+            <TextView android:ellipsize="end" android:id="@+id/title_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="4dp" style="@style/Notification.Title"/>
+        </LinearLayout>
+        <TextView android:ellipsize="end" android:id="@+id/content_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxLines="2" android:includeFontPadding="false" style="@style/Notification.Content"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/iv_icon" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ntf_check_in_icon" android:importantForAccessibility="no" android:layout_marginEnd="2dp"/>
+</LinearLayout>

@@ -1,0 +1,3 @@
+.class public Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoPasswordInvalidException;
+.super Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoIdentityProviderException;
+.source "CognitoPasswordInvalidException.java"

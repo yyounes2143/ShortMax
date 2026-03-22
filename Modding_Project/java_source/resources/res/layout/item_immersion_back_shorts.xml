@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/video_card_view" android:tag="layout/item_immersion_back_shorts_0" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no" app:cardBackgroundColor="@color/color_immersion_back_fragment_button_bg" app:cardCornerRadius="20dp">
+    <TextureView android:id="@+id/video_render_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@+id/cover_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/banner_pic"/>
+    <com.startshorts.androidplayer.ui.view.shortsV2.shortrating.SmallShortRatingLayout android:layout_gravity="start|top" android:id="@+id/short_rating_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginStart="12dp"/>
+</androidx.cardview.widget.CardView>

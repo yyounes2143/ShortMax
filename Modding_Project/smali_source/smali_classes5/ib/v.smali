@@ -1,0 +1,31 @@
+.class public Lib/v;
+.super Lcom/huawei/hms/common/internal/HmsClient;
+.source "AccountAuthHmsClient.java"
+
+
+# direct methods
+.method public constructor <init>(Landroid/content/Context;Lcom/huawei/hms/common/internal/ClientSettings;Lcom/huawei/hms/common/internal/BaseHmsClient$OnConnectionFailedListener;Lcom/huawei/hms/common/internal/BaseHmsClient$ConnectionCallbacks;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0, p1, p2, p3, p4}, Lcom/huawei/hms/common/internal/HmsClient;-><init>(Landroid/content/Context;Lcom/huawei/hms/common/internal/ClientSettings;Lcom/huawei/hms/common/internal/BaseHmsClient$OnConnectionFailedListener;Lcom/huawei/hms/common/internal/BaseHmsClient$ConnectionCallbacks;)V
+
+    .line 2
+    .line 3
+    .line 4
+    return-void
+.end method
+
+
+# virtual methods
+.method public getMinApkVersion()I
+    .locals 1
+
+    .line 1
+    const v0, 0x26269a0
+
+    .line 2
+    .line 3
+    .line 4
+    return v0
+.end method

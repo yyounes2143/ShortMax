@@ -1,0 +1,3 @@
+.class public Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoLambdaException;
+.super Lcom/amazonaws/mobileconnectors/cognitoidentityprovider/exceptions/CognitoIdentityProviderException;
+.source "CognitoLambdaException.java"

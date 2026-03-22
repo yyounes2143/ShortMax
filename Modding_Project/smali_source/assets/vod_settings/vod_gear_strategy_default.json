@@ -1,0 +1,45 @@
+{
+  "vod_gear_strategy_config": {
+    "vod_strategy_select_bitrate": {
+      "strategy_type": 2,
+      "strategy_module": 1,
+      "switch_cs_model": 3,
+      "fixed_level": 0,
+      "startup_model": 3,
+      "startup_bandwidth_parameter": 1,
+      "startup_first_param_str": "0.0",
+      "startup_second_param_str": "2.021592438869334e-05",
+      "startup_third_param_str": "0.14474436254628684",
+      "startup_fourth_param_str": "110.8197323438644",
+      "startup_use_cache": 1,
+      "abr_pool_enable": 0,
+      "startup_algo_type": 3,
+      "startup_speed_type": 4,
+      "startup_narrow_screen_use_width": 1,
+      "preload_json": "",
+      "startup_json": "{\"audioBasedDowngrade\": 3, \"tagRelatedParams\": {\"sfeed_search\": {\"band_param\": 0.8,\"max_level\": 1}}}",
+      "flow_json": "{\"userLabelOptimize\": 1, \"userQualitySensDownThre\": -0.1}",
+      "wifi_default_resolution_index": 3,
+      "wifi_max_resolution_index": 3,
+      "cellular_max_resolution_index": 1,
+      "wifi_default_resolution_quality": "3",
+      "wifi_max_resolution_quality": "3",
+      "cellular_max_resolution_quality": "1"
+    },
+    "vod_sr_strategy_extra_config": {
+      "sr": {
+        "benchmark": {
+          "2": [
+            "3"
+          ]
+        }
+      }
+    },
+    "vod_strategy_speed_predict_config": {
+      "net_speed_abr_predict_type": 0,
+      "test_speed_interval_ms": 500,
+      "is_report_speed_info": 1,
+      "report_speed_info_max_window_size": 100
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_ranking_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.startshorts.androidplayer.ui.view.base.LoadMoreRecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="never" />
+    <com.hades.aar.pagestate.StateViewGroup android:id="@id/page_state_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

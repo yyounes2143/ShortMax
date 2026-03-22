@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="9sp" android:textColor="@color/color_immersion_activity_speed" android:gravity="center" android:layout_gravity="center" android:id="@+id/resolution_tv" android:background="@drawable/bg_play_resolution_view_border" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="wrap_content" android:layout_height="18.5dp" android:minWidth="36dp" android:paddingHorizontal="2dp" app:custom_typeface="@string/typeface_medium"/>
+</merge>

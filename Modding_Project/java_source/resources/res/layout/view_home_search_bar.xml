@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@+id/logo_iv" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="0dp" android:layout_height="@dimen/home_search_bar_height" android:contentDescription="@string/icon" android:layout_marginStart="10dp" android:paddingVertical="16dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.startshorts.androidplayer.ui.view.search.SearchLabelView android:id="@+id/search_label_view" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginStart="6dp" app:layout_constraintBottom_toBottomOf="@+id/logo_iv" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toEndOf="@+id/logo_iv" app:layout_constraintTop_toTopOf="@+id/logo_iv"/>
+</merge>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@+id/bg_iv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextureView android:id="@+id/video_render_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="end|top" android:id="@+id/sound_iv" android:background="@drawable/bg_preview_sound" android:padding="3dp" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="9dp" android:src="@drawable/ic_video_preview_no_sound" android:contentDescription="@string/sound_control" android:layout_marginEnd="11dp"/>
+</merge>

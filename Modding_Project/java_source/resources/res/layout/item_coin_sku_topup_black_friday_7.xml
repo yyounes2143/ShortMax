@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.purchase.BlackFridayCoinSkuView7 xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/coin_sku_view" android:tag="layout/item_coin_sku_topup_black_friday_7_0" android:layout_width="match_parent" android:layout_height="73dp" android:layout_marginStart="6dp" android:layout_marginEnd="6dp"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/fragment_discover_ranking_tab_0" android:background="@color/color_common_page_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/bg_discover_rank_top" android:scaleType="fitXY" android:importantForAccessibility="no" app:layout_constraintTop_toTopOf="0"/>
+    <com.startshorts.androidplayer.ui.view.base.TabView android:id="@+id/tabView" android:visibility="visible" android:layout_width="match_parent" android:layout_height="36dp" android:overScrollMode="never" android:importantForAccessibility="no" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" app:layout_constraintTop_toTopOf="0"/>
+    <com.startshorts.androidplayer.utils.scroll.NestedScrollableHost android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintTop_toBottomOf="@+id/tabView">
+        <androidx.viewpager2.widget.ViewPager2 android:id="@+id/viewPager2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </com.startshorts.androidplayer.utils.scroll.NestedScrollableHost>
+    <com.hades.aar.pagestate.StateViewGroup android:id="@+id/page_state_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/root_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ai.turbolink.sdk.campaign.TurboLinkCampaignLayout android:id="@+id/turbolinkActionBar" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="0"/>
+    <WebView android:id="@+id/webView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp"/>
+    <FrameLayout android:id="@+id/loadingOverlay" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="50dp">
+        <ImageView android:layout_gravity="center" android:id="@+id/loadingLogo" android:visibility="gone" android:layout_width="70dp" android:layout_height="70dp"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/loadingProgressBar" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:indeterminateTint="#7367f0" style="?android:attr/progressBarStyle"/>
+    </FrameLayout>
+    <include android:id="@+id/errorView" android:visibility="gone" layout="@layout/error_page"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

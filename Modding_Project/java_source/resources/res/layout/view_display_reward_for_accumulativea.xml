@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_bg_accumulative_watch_2" android:layout_width="match_parent" android:layout_height="56dp" android:layout_margin="3dp">
+        <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="12sp" android:textColor="#fff" android:gravity="center" android:id="@+id/tv_time_need" android:background="@drawable/shape_bg_accumulative_watch_3" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginTop="1dp" android:layout_marginStart="1dp" android:layout_marginEnd="1dp"/>
+        <androidx.appcompat.widget.LinearLayoutCompat android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="36dp">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="14dp" android:layout_height="36dp" android:src="@drawable/ic_coin_discover_reward"/>
+            <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="18sp" android:textColor="@color/colorPrimary" android:ellipsize="end" android:gravity="center" android:id="@+id/tv_reward" android:layout_width="wrap_content" android:layout_height="36dp" android:maxLines="1" android:layout_marginStart="4dp" app:custom_typeface="@string/typeface_bold"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+    </LinearLayout>
+</merge>

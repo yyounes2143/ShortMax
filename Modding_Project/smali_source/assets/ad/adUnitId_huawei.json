@@ -1,0 +1,780 @@
+{
+  "adGroup": {
+    "t1": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t2": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t3": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t4": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "d7rwn55ptn",
+            "name": "ShortMax-open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "a8pzclncp1",
+            "name": "ShortMax-reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "o3zmwcmb99",
+            "name": "ShortMax-inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "t77wcygi7j",
+            "name": "ShortMax-banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "v8d627jbvz",
+            "name": "ShortMax-native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ]
+  }
+}

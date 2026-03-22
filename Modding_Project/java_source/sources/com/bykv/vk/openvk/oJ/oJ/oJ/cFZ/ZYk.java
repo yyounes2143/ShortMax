@@ -1,0 +1,51 @@
+package com.bykv.vk.openvk.oJ.oJ.oJ.cFZ;
+
+import android.text.TextUtils;
+import java.nio.charset.Charset;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+/* loaded from: classes3.dex */
+public class ZYk {
+    private static final MessageDigest oJ = oJ();
+    private static final char[] ZYk = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};
+
+    private ZYk() {
+    }
+
+    private static MessageDigest oJ() {
+        try {
+            return MessageDigest.getInstance("md5");
+        } catch (NoSuchAlgorithmException unused) {
+            return null;
+        }
+    }
+
+    public static String oJ(String str) {
+        byte[] digest;
+        MessageDigest messageDigest = oJ;
+        if (messageDigest != null && !TextUtils.isEmpty(str)) {
+            byte[] bytes = str.getBytes(Charset.forName("UTF-8"));
+            synchronized (ZYk.class) {
+                digest = messageDigest.digest(bytes);
+            }
+            return oJ(digest);
+        }
+        return "";
+    }
+
+    public static String oJ(byte[] bArr) {
+        if (bArr == null || bArr.length == 0) {
+            return null;
+        }
+        char[] cArr = new char[bArr.length << 1];
+        int i10 = 0;
+        for (byte b10 : bArr) {
+            int i11 = i10 + 1;
+            char[] cArr2 = ZYk;
+            cArr[i10] = cArr2[(b10 & 240) >> 4];
+            i10 += 2;
+            cArr[i11] = cArr2[b10 & 15];
+        }
+        return new String(cArr);
+    }
+}

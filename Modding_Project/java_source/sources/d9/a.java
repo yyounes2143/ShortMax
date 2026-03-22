@@ -1,0 +1,10 @@
+package d9;
+
+import com.google.firebase.messaging.threads.ThreadPriority;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.ThreadFactory;
+/* compiled from: ExecutorFactory.java */
+/* loaded from: classes5.dex */
+public interface a {
+    ExecutorService a(ThreadFactory threadFactory, ThreadPriority threadPriority);
+}

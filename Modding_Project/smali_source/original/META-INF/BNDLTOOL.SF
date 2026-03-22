@@ -1,0 +1,149 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: KRdVyrupJ5W5Lt2HAoETbTKvacY=
+X-Android-APK-Signed: 2, 3
+
+Name: AndroidManifest.xml
+SHA1-Digest: i00830lVx9Okz5zHOSO7EzAuQ0Q=
+
+Name: lib/arm64-v8a/libByteVC1_dec.so
+SHA1-Digest: oQi/JyUi6r98geq+KlnCeH6KobA=
+
+Name: lib/arm64-v8a/libEncryptorP.so
+SHA1-Digest: /1odvAX5NI+xSpKl1Y25L0SDsSA=
+
+Name: lib/arm64-v8a/libVolcBaseLog.so
+SHA1-Digest: GPwHJdIdCUsFniCZP9850lAt2IQ=
+
+Name: lib/arm64-v8a/libabrmodule.so
+SHA1-Digest: pvJH1oF2DKiLei3x0kcKegozCXc=
+
+Name: lib/arm64-v8a/libapminsighta.so
+SHA1-Digest: S3Z4EJXdlDf12XTi6ccuoFBEe04=
+
+Name: lib/arm64-v8a/libapminsightb.so
+SHA1-Digest: 3pvFMIVLBEM4qT1Z10S3+X4KhBA=
+
+Name: lib/arm64-v8a/libapplovin-native-crash-reporter.so
+SHA1-Digest: xkbTy9b8BkTzxf1FG6SmXyPXgjI=
+
+Name: lib/arm64-v8a/libavmdl.so
+SHA1-Digest: liAe7E/svzYbuVTs08mqyPfX1pQ=
+
+Name: lib/arm64-v8a/libavmdlbase.so
+SHA1-Digest: s/SX2OwwOq/ZsjVOOw+2HRG2O/0=
+
+Name: lib/arm64-v8a/libavmdlv2.so
+SHA1-Digest: OV8pIhh6/Clm8Orzy62v3WelaKA=
+
+Name: lib/arm64-v8a/libbuffer_pgl.so
+SHA1-Digest: N0LnpMzUgwEHZCBMWTg0CFegigI=
+
+Name: lib/arm64-v8a/libc++_shared.so
+SHA1-Digest: 0SUPudAC7HcT95L/FKt52breocs=
+
+Name: lib/arm64-v8a/libcachemodule.so
+SHA1-Digest: 7UXLQWJnd3+vFvoxKGKa2eT0iN0=
+
+Name: lib/arm64-v8a/libcrashlytics-common.so
+SHA1-Digest: iPvURsEVKvIqtHEF4/UQvj2/jnU=
+
+Name: lib/arm64-v8a/libcrashlytics-handler.so
+SHA1-Digest: SdV1+R/pqVcDEfnTIMTKrdmH76g=
+
+Name: lib/arm64-v8a/libcrashlytics-trampoline.so
+SHA1-Digest: H9anO0Dj6DfoaJIYRpEOUgWlKc4=
+
+Name: lib/arm64-v8a/libcrashlytics.so
+SHA1-Digest: oyyOC3mtSNsR0QG7M3n2Sn6/F78=
+
+Name: lib/arm64-v8a/libdatastore_shared_counter.so
+SHA1-Digest: 2QroeYLrBWw5bbYB9vLjZMnYZKg=
+
+Name: lib/arm64-v8a/libfile_lock_pgl.so
+SHA1-Digest: Aw+MrELoIlkzqICIxcO3g93z2qo=
+
+Name: lib/arm64-v8a/libgifimage.so
+SHA1-Digest: /vjo1Sw4riaqLEBvP1eNcs5HdYc=
+
+Name: lib/arm64-v8a/libimagepipeline.so
+SHA1-Digest: oSKgBFxTd/PJl74v1HGclOTbMoA=
+
+Name: lib/arm64-v8a/libmarsxlog.so
+SHA1-Digest: yQPnVRUx4z2XG7dOiEbLuJ/+uvQ=
+
+Name: lib/arm64-v8a/libmmkv.so
+SHA1-Digest: GS/YCPKtLzKmOrjxDBy495TNO94=
+
+Name: lib/arm64-v8a/libnative-filters.so
+SHA1-Digest: R/qKcsDmbHcC8paP8Y1VN4xHDSs=
+
+Name: lib/arm64-v8a/libnative-imagetranscoder.so
+SHA1-Digest: srPgUs1EYRaDzp5vzYVV7EPzHyw=
+
+Name: lib/arm64-v8a/libnetworkpredictor.so
+SHA1-Digest: /RU/qeIQ9TugDiG1lqcc0IziWLM=
+
+Name: lib/arm64-v8a/libnms.so
+SHA1-Digest: kRf0megc8Tz7dFl2dfpKmykZ5dI=
+
+Name: lib/arm64-v8a/libpglarmor.so
+SHA1-Digest: Smrq149osXXMYe6JGQeBPBdRXpY=
+
+Name: lib/arm64-v8a/libpreload.so
+SHA1-Digest: PBRYSotm0GG9R1DIIPcTA03Ue64=
+
+Name: lib/arm64-v8a/libsigner.so
+SHA1-Digest: c/nfvwWiJNMMfytOrBmv2CDSGFg=
+
+Name: lib/arm64-v8a/libtexturerender_native.so
+SHA1-Digest: PCtIEPVL4zpXb9jssO6x8Md4BaU=
+
+Name: lib/arm64-v8a/libtobEmbedPagEncrypt.so
+SHA1-Digest: 4Pslxezk68zvrzdWYsfuGebHXA0=
+
+Name: lib/arm64-v8a/libtt_ugen_layout.so
+SHA1-Digest: QN3wYvSt7jNHQb0yBDiUGj213CY=
+
+Name: lib/arm64-v8a/libttboringssl.so
+SHA1-Digest: rmqQHujP1sJUZ8v7uChxQqTgyJ4=
+
+Name: lib/arm64-v8a/libttcrypto.so
+SHA1-Digest: r3T9/Dg24I/1oUJN+nL9YE0dGMk=
+
+Name: lib/arm64-v8a/libttffmpeg.so
+SHA1-Digest: 3sL5RFMUf2S0R/NzlEyh9o0V8cU=
+
+Name: lib/arm64-v8a/libttlicense2.so
+SHA1-Digest: z9Myv30lKpyv4+qGYCmDlyFY99w=
+
+Name: lib/arm64-v8a/libttmplayer.so
+SHA1-Digest: 22pR5u8AGZQ/O59F3uYbinqCZWo=
+
+Name: lib/arm64-v8a/libttmverify.so
+SHA1-Digest: moMR9TmI64qA96E0+sapju/EPZI=
+
+Name: lib/arm64-v8a/libttmverifylite.so
+SHA1-Digest: l+EvXpABKrdVeW9rQ+70ucV8YLE=
+
+Name: lib/arm64-v8a/libvcbasekit.so
+SHA1-Digest: UElo7uFi1cmv7KtC3S38dnKojJo=
+
+Name: lib/arm64-v8a/libvcn.so
+SHA1-Digest: zxMAB9jmGfPxP9NuOle0k0ekgRI=
+
+Name: lib/arm64-v8a/libvcnverify.so
+SHA1-Digest: tKjPX1rRCDwnqcxZsJwDrct8pGU=
+
+Name: lib/arm64-v8a/libvcnverifylite.so
+SHA1-Digest: WbeuU3o/dTR0g3RdIR9M8l8+KMo=
+
+Name: lib/arm64-v8a/libvideodec.so
+SHA1-Digest: Ia0rLbjURUzeIuIK737+OKq1p00=
+
+Name: lib/arm64-v8a/libwcdb.so
+SHA1-Digest: gjw5kb/3viK1b/cPbEyKq9/dolM=
+
+Name: stamp-cert-sha256
+SHA1-Digest: Bs40BvDZ1xrbgQrPTD2x5w/NfHQ=
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="100.0dip" />
+            <solid android:color="#1fffffff" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <scale android:drawable="@drawable/accumulated_task_progress_bar_ct_new" android:scaleWidth="100%" />
+    </item>
+</layer-list>

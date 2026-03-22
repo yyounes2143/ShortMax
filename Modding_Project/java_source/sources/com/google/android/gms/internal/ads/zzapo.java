@@ -1,0 +1,29 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Objects;
+import java.util.concurrent.BlockingQueue;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+/* loaded from: classes4.dex */
+public final class zzapo implements Runnable {
+    final /* synthetic */ zzaqd zza;
+    final /* synthetic */ zzapp zzb;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public zzapo(zzapp zzappVar, zzaqd zzaqdVar) {
+        this.zza = zzaqdVar;
+        Objects.requireNonNull(zzappVar);
+        this.zzb = zzappVar;
+    }
+
+    @Override // java.lang.Runnable
+    public final void run() {
+        BlockingQueue blockingQueue;
+        try {
+            blockingQueue = this.zzb.zzc;
+            blockingQueue.put(this.zza);
+        } catch (InterruptedException unused) {
+            Thread.currentThread().interrupt();
+        }
+    }
+}

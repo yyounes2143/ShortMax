@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/item_play_episode_0" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.startshorts.androidplayer.ui.view.base.SwipingTextureView android:id="@+id/video_render_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.startshorts.androidplayer.ui.view.base.SwipingFrescoView android:id="@+id/video_cover_iv" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/cover_pic"/>
+    <ImageView android:layout_gravity="start|top" android:id="@+id/logo_iv" android:layout_width="75dp" android:layout_height="23dp" android:layout_marginTop="12dp" android:src="@drawable/ic_play_episode_list_logo" android:importantForAccessibility="no" android:layout_marginStart="16dp"/>
+</FrameLayout>

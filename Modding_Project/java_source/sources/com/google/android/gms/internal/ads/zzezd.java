@@ -1,0 +1,47 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.concurrent.Executor;
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+/* loaded from: classes4.dex */
+public final class zzezd implements zzezr {
+    private final zzfej zza;
+    private final Executor zzb;
+    private final zzgdj zzc = new zzezb(this);
+
+    public zzezd(zzfej zzfejVar, Executor executor) {
+        this.zza = zzfejVar;
+        this.zzb = executor;
+    }
+
+    public static /* synthetic */ com.google.common.util.concurrent.e zza(zzezd zzezdVar, zzcve zzcveVar, zzezl zzezlVar) {
+        zzfej zzfejVar = zzezdVar.zza;
+        zzfet zzfetVar = zzezlVar.zzb;
+        zzbvq zzbvqVar = zzezlVar.zza;
+        zzfes zzb = zzfejVar.zzb(zzfetVar);
+        if (zzb != null && zzbvqVar != null) {
+            zzgdn.zzr(zzcveVar.zzb().zzg(zzbvqVar), zzezdVar.zzc, zzezdVar.zzb);
+        }
+        return zzgdn.zzh(new zzezc(zzfetVar, zzbvqVar, zzb));
+    }
+
+    public final com.google.common.util.concurrent.e zzb(zzezs zzezsVar, zzezq zzezqVar, final zzcve zzcveVar) {
+        zzfej zzfejVar = this.zza;
+        Executor executor = this.zzb;
+        return (zzgde) zzgdn.zze((zzgde) zzgdn.zzn(zzgde.zzw(new zzezn(zzfejVar, zzcveVar, executor).zzc()), new zzgcu() { // from class: com.google.android.gms.internal.ads.zzeyz
+            @Override // com.google.android.gms.internal.ads.zzgcu
+            public final com.google.common.util.concurrent.e zza(Object obj) {
+                return zzezd.zza(zzezd.this, zzcveVar, (zzezl) obj);
+            }
+        }, executor), Exception.class, new zzeza(this), executor);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzezr
+    public final /* bridge */ /* synthetic */ com.google.common.util.concurrent.e zzc(zzezs zzezsVar, zzezq zzezqVar, Object obj) {
+        return zzb(zzezsVar, zzezqVar, null);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzezr
+    public final /* bridge */ /* synthetic */ Object zzd() {
+        return null;
+    }
+}

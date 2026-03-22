@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="16sp" android:textColor="@android:color/white" android:gravity="center" android:background="@drawable/bg_positive_button_4dp_primary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_fragment_logout" android:textAlignment="gravity" app:custom_typeface="@string/typeface_semi_bold"/>

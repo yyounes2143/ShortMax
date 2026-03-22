@@ -1,0 +1,54 @@
+package com.mbridge.msdk.videocommon.net;
+
+import android.content.Context;
+import android.os.Build;
+import com.mbridge.msdk.foundation.same.net.wrapper.e;
+import com.mbridge.msdk.foundation.tools.f;
+import com.mbridge.msdk.foundation.tools.l0;
+import com.mbridge.msdk.foundation.tools.u;
+import com.mbridge.msdk.out.MBConfiguration;
+import com.ss.texturerender.TextureRenderKeys;
+import com.ss.ttm.player.MediaFormat;
+import com.ss.ttvideoengine.TTVideoEngineInterface;
+import com.unity3d.services.ads.adunit.AdUnitActivity;
+/* compiled from: RewardSettingRequest.java */
+/* loaded from: classes6.dex */
+public class b extends com.mbridge.msdk.foundation.same.net.wrapper.c {
+    public b(Context context) {
+        super(context);
+    }
+
+    @Override // com.mbridge.msdk.foundation.same.net.wrapper.c
+    public void addExtraParams(String str, e eVar) {
+        try {
+            super.addExtraParams(str, eVar);
+            eVar.a("platform", "1");
+            eVar.a(TTVideoEngineInterface.PLAY_API_KEY_OSVERSION, Build.VERSION.RELEASE);
+            eVar.a("package_name", l0.t(this.mContext));
+            eVar.a("app_version_name", l0.B(this.mContext));
+            eVar.a("app_version_code", l0.A(this.mContext) + "");
+            eVar.a(AdUnitActivity.EXTRA_ORIENTATION, l0.F(this.mContext) + "");
+            eVar.a("model", l0.n());
+            eVar.a("brand", l0.s());
+            int s10 = l0.s(this.mContext);
+            eVar.a("network_type", s10 + "");
+            eVar.a("network_str", l0.a(this.mContext, s10) + "");
+            eVar.a(MediaFormat.KEY_LANGUAGE, l0.p(this.mContext));
+            eVar.a("timezone", l0.w());
+            eVar.a("useragent", l0.i());
+            eVar.a("sdk_version", MBConfiguration.SDK_VERSION);
+            eVar.a("screen_size", l0.n(this.mContext) + TextureRenderKeys.KEY_IS_X + l0.m(this.mContext));
+            if (com.mbridge.msdk.util.b.a()) {
+                eVar.a("gaid", "");
+                eVar.a("gp_version", u.d(this.mContext));
+                eVar.a("is_clever", com.mbridge.msdk.foundation.same.a.C);
+            } else {
+                eVar.a("gaid", f.d());
+            }
+            eVar.a("gaid2", f.c());
+            com.mbridge.msdk.foundation.same.net.wrapper.f.h(eVar);
+        } catch (Exception e10) {
+            e10.printStackTrace();
+        }
+    }
+}

@@ -1,0 +1,32 @@
+package com.adjust.sdk;
+
+import android.net.Uri;
+/* loaded from: classes2.dex */
+public class AdjustDeeplink {
+    Uri referrer;
+    Uri url;
+
+    public AdjustDeeplink(Uri uri) {
+        this.url = uri;
+    }
+
+    public Uri getReferrer() {
+        return this.referrer;
+    }
+
+    public Uri getUrl() {
+        return this.url;
+    }
+
+    public boolean isValid() {
+        Uri uri = this.url;
+        if (uri != null && !uri.toString().isEmpty()) {
+            return true;
+        }
+        return false;
+    }
+
+    public void setReferrer(Uri uri) {
+        this.referrer = uri;
+    }
+}

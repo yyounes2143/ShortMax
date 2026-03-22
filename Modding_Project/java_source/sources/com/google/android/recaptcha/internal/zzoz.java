@@ -1,0 +1,25 @@
+package com.google.android.recaptcha.internal;
+
+import java.util.Map;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: com.google.android.recaptcha:recaptcha@@18.6.1 */
+/* loaded from: classes5.dex */
+public final class zzoz extends zzpe {
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public zzoz() {
+        super(null);
+    }
+
+    @Override // com.google.android.recaptcha.internal.zzpe
+    public final void zza() {
+        if (!zzj()) {
+            for (int i10 = 0; i10 < zzc(); i10++) {
+                ((zzms) ((zzpa) zzg(i10)).zza()).zzg();
+            }
+            for (Map.Entry entry : zzd()) {
+                ((zzms) entry.getKey()).zzg();
+            }
+        }
+        super.zza();
+    }
+}

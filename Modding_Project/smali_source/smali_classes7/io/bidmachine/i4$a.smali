@@ -1,0 +1,14 @@
+.class synthetic Lio/bidmachine/i4$a;
+.super Ljava/lang/Object;
+.source "InstallInfoProvider.java"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lio/bidmachine/i4;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1008
+    name = null
+.end annotation

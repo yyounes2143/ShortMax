@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="16sp" android:textColor="@color/color_my_wallet_fragment_time" android:id="@+id/title_tv" android:tag="layout/item_black_friday_coin_sku_title_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginStart="16dp" app:custom_typeface="@string/typeface_semi_bold"/>

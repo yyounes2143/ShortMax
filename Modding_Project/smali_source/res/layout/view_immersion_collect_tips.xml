@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="12.0sp" android:textColor="@android:color/white" android:id="@id/collect_tips_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="190.0dip" android:layout_marginStart="14.0dip" app:custom_typeface="@string/typeface_medium" app:layout_constraintBottom_toBottomOf="@id/collect_tips_iv" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/collect_tips_iv" />
+    <ImageView android:id="@id/collect_tips_iv" android:layout_width="21.0dip" android:layout_height="21.0dip" android:src="@drawable/ic_shorts_uncollect_tips" android:importantForAccessibility="no" android:layout_marginStart="8.0dip" android:layout_marginEnd="14.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/collect_tips_tv" app:layout_constraintTop_toTopOf="parent" />
+</merge>

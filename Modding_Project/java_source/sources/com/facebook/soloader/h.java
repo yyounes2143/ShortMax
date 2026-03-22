@@ -1,0 +1,10 @@
+package com.facebook.soloader;
+
+import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.channels.ByteChannel;
+/* compiled from: ElfByteChannel.java */
+/* loaded from: classes2.dex */
+public interface h extends ByteChannel {
+    int h(ByteBuffer byteBuffer, long j10) throws IOException;
+}

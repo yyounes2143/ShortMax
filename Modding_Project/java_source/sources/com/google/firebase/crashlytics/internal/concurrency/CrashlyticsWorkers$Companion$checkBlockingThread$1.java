@@ -1,0 +1,24 @@
+package com.google.firebase.crashlytics.internal.concurrency;
+
+import com.google.firebase.crashlytics.internal.concurrency.CrashlyticsWorkers;
+import kotlin.Metadata;
+import kotlin.jvm.functions.Function0;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: CrashlyticsWorkers.kt */
+@Metadata
+/* loaded from: classes5.dex */
+public /* synthetic */ class CrashlyticsWorkers$Companion$checkBlockingThread$1 extends FunctionReferenceImpl implements Function0<Boolean> {
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public CrashlyticsWorkers$Companion$checkBlockingThread$1(Object obj) {
+        super(0, obj, CrashlyticsWorkers.Companion.class, "isBlockingThread", "isBlockingThread()Z", 0);
+    }
+
+    /* JADX WARN: Can't rename method to resolve collision */
+    @Override // kotlin.jvm.functions.Function0
+    public final Boolean invoke() {
+        boolean q10;
+        q10 = ((CrashlyticsWorkers.Companion) this.receiver).q();
+        return Boolean.valueOf(q10);
+    }
+}

@@ -1,0 +1,15 @@
+package androidx.compose.ui.graphics.drawscope;
+
+import kotlin.Metadata;
+import kotlin.jvm.internal.DefaultConstructorMarker;
+/* compiled from: DrawScope.kt */
+@Metadata
+/* loaded from: classes.dex */
+public abstract class DrawStyle {
+    public /* synthetic */ DrawStyle(DefaultConstructorMarker defaultConstructorMarker) {
+        this();
+    }
+
+    private DrawStyle() {
+    }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/cover_iv" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ic_cover_placeholder" android:scaleType="centerCrop" android:contentDescription="@string/cover_pic"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="12dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="11sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/tag_tv" android:background="@drawable/bg_permanent_notification_tag" android:paddingLeft="4dp" android:paddingRight="4dp" android:paddingBottom="0.5dp" android:layout_width="wrap_content" android:layout_height="15dp" android:paddingHorizontal="4dp"/>
+                <TextView android:ellipsize="end" android:id="@+id/title_tv" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="-0.5dp" android:maxLines="1" android:layout_weight="1" android:layout_marginStart="4dp" style="@style/Notification.Title"/>
+            </LinearLayout>
+            <TextView android:ellipsize="end" android:id="@+id/content_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.5dp" android:maxLines="4" android:lineSpacingExtra="2dp" style="@style/Notification.Content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/watch_button" android:background="@drawable/bg_notification_button" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="16dp" android:textAlignment="gravity"/>
+</LinearLayout>

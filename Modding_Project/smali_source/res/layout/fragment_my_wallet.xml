@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_my_wallet_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.base.TabView android:id="@id/tab_view" android:layout_width="fill_parent" android:layout_height="35.0dip" android:overScrollMode="never" app:layout_constraintTop_toTopOf="parent" />
+    <View android:id="@id/divider_line" android:background="@color/color_my_list_fragment_tab_view_divider_line" android:layout_width="fill_parent" android:layout_height="1.5dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_marginHorizontal="16.0dip" app:layout_constraintTop_toBottomOf="@id/tab_view" />
+    <androidx.viewpager2.widget.ViewPager2 android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="45.0dip" android:layout_marginBottom="40.0dip" />
+    <ViewStub android:id="@id/recharge_tip_viewstub" android:layout="@layout/viewstub_recharge_tip" android:inflatedId="@id/recharge_tip_viewstub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="24.0dip" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

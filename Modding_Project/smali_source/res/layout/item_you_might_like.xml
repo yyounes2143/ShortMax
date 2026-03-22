@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.search.YouMightLikeView android:id="@id/you_might_like" android:tag="layout/item_you_might_like_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

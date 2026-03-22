@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:topLeftRadius="12.0dip" android:topRightRadius="12.0dip" android:bottomLeftRadius="0.0dip" android:bottomRightRadius="12.0dip" />
+    <gradient android:startColor="@color/color_payment_method_start" android:endColor="@color/color_payment_method_end" android:angle="0.0" android:type="linear" />
+</shape>

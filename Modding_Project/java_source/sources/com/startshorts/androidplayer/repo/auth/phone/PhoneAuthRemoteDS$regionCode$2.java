@@ -1,0 +1,60 @@
+package com.startshorts.androidplayer.repo.auth.phone;
+
+import com.startshorts.androidplayer.bean.api.ServerResult;
+import com.startshorts.androidplayer.bean.region.Region;
+import com.startshorts.androidplayer.manager.api.base.k;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.coroutines.intrinsics.a;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.coroutines.jvm.internal.d;
+import kotlin.f;
+import kotlin.jvm.functions.Function1;
+import rs.c;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: PhoneAuthRemoteDS.kt */
+@Metadata
+@d(c = "com.startshorts.androidplayer.repo.auth.phone.PhoneAuthRemoteDS$regionCode$2", f = "PhoneAuthRemoteDS.kt", l = {49}, m = "invokeSuspend")
+/* loaded from: classes7.dex */
+public final class PhoneAuthRemoteDS$regionCode$2 extends SuspendLambda implements Function1<c<? super ServerResult<Region>>, Object> {
+
+    /* renamed from: h  reason: collision with root package name */
+    int f43160h;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public PhoneAuthRemoteDS$regionCode$2(c<? super PhoneAuthRemoteDS$regionCode$2> cVar) {
+        super(1, cVar);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final c<Unit> create(c<?> cVar) {
+        return new PhoneAuthRemoteDS$regionCode$2(cVar);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        Object f10 = a.f();
+        int i10 = this.f43160h;
+        if (i10 != 0) {
+            if (i10 == 1) {
+                f.b(obj);
+            } else {
+                throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+            }
+        } else {
+            f.b(obj);
+            k.a j10 = k.f41787a.j();
+            this.f43160h = 1;
+            obj = j10.d0(this);
+            if (obj == f10) {
+                return f10;
+            }
+        }
+        return obj;
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Object invoke(c<? super ServerResult<Region>> cVar) {
+        return ((PhoneAuthRemoteDS$regionCode$2) create(cVar)).invokeSuspend(Unit.f60915a);
+    }
+}

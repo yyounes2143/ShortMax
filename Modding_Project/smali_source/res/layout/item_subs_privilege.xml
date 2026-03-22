@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_subs_privilege_0" android:layout_width="fill_parent" android:layout_height="85.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="72.0dip" android:src="@drawable/bg_subscription_privilege" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" />
+    <ImageView android:id="@id/icon_iv" android:tag="binding_1" android:layout_width="46.0dip" android:layout_height="46.0dip" android:contentDescription="@string/icon" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="13.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:tag="binding_2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_marginStart="26.0dip" android:layout_marginEnd="26.0dip" app:custom_typeface="@string/typeface_medium" app:layout_constraintTop_toBottomOf="@id/icon_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

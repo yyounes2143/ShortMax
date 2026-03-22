@@ -1,0 +1,166 @@
+.class Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;
+.super Lcom/bytedance/sdk/component/so/so;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/bytedance/sdk/openadsdk/component/reward/Pfn;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0xa
+    name = "tB"
+.end annotation
+
+
+# instance fields
+.field final ZYk:Lcom/bytedance/sdk/openadsdk/AdSlot;
+
+.field final oJ:Lcom/bytedance/sdk/openadsdk/core/model/cY;
+
+.field final tB:Lcom/bytedance/sdk/openadsdk/core/model/oJ;
+
+
+# direct methods
+.method constructor <init>(Lcom/bytedance/sdk/openadsdk/core/model/cY;Lcom/bytedance/sdk/openadsdk/AdSlot;Lcom/bytedance/sdk/openadsdk/core/model/oJ;)V
+    .locals 1
+
+    .line 1
+    const-string v0, "Fullscreen Task"
+
+    .line 2
+    .line 3
+    invoke-direct {p0, v0}, Lcom/bytedance/sdk/component/so/so;-><init>(Ljava/lang/String;)V
+
+    .line 4
+    .line 5
+    .line 6
+    iput-object p1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->oJ:Lcom/bytedance/sdk/openadsdk/core/model/cY;
+
+    .line 7
+    .line 8
+    iput-object p2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->ZYk:Lcom/bytedance/sdk/openadsdk/AdSlot;
+
+    .line 9
+    .line 10
+    iput-object p3, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->tB:Lcom/bytedance/sdk/openadsdk/core/model/oJ;
+
+    .line 11
+    .line 12
+    return-void
+.end method
+
+
+# virtual methods
+.method public run()V
+    .locals 3
+
+    .line 1
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->oJ:Lcom/bytedance/sdk/openadsdk/core/model/cY;
+
+    .line 2
+    .line 3
+    if-nez v0, :cond_0
+
+    .line 4
+    .line 5
+    return-void
+
+    .line 6
+    :cond_0
+    invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/model/cY;->ib()Lcom/bykv/vk/openvk/oJ/oJ/oJ/tB/ZYk;
+
+    .line 7
+    .line 8
+    .line 9
+    move-result-object v0
+
+    .line 10
+    if-eqz v0, :cond_1
+
+    .line 11
+    .line 12
+    iget-object v0, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->oJ:Lcom/bytedance/sdk/openadsdk/core/model/cY;
+
+    .line 13
+    .line 14
+    invoke-virtual {v0}, Lcom/bytedance/sdk/openadsdk/core/model/cY;->rQ()I
+
+    .line 15
+    .line 16
+    .line 17
+    move-result v0
+
+    .line 18
+    invoke-static {v0}, Lcom/bytedance/sdk/openadsdk/CacheDirFactory;->getICacheDir(I)Lcom/bykv/vk/openvk/oJ/oJ/oJ/oJ/ZYk;
+
+    .line 19
+    .line 20
+    .line 21
+    move-result-object v0
+
+    .line 22
+    invoke-interface {v0}, Lcom/bykv/vk/openvk/oJ/oJ/oJ/oJ/ZYk;->oJ()Ljava/lang/String;
+
+    .line 23
+    .line 24
+    .line 25
+    move-result-object v0
+
+    .line 26
+    iget-object v1, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->oJ:Lcom/bytedance/sdk/openadsdk/core/model/cY;
+
+    .line 27
+    .line 28
+    invoke-static {v0, v1}, Lcom/bytedance/sdk/openadsdk/core/model/cY;->oJ(Ljava/lang/String;Lcom/bytedance/sdk/openadsdk/core/model/cY;)Lcom/bytedance/sdk/openadsdk/core/BTZ/oJ/ZYk;
+
+    .line 29
+    .line 30
+    .line 31
+    move-result-object v0
+
+    .line 32
+    const-string v1, "material_meta"
+
+    .line 33
+    .line 34
+    iget-object v2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->oJ:Lcom/bytedance/sdk/openadsdk/core/model/cY;
+
+    .line 35
+    .line 36
+    invoke-virtual {v0, v1, v2}, Lcom/bykv/vk/openvk/oJ/oJ/oJ/tB/tB;->oJ(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 37
+    .line 38
+    .line 39
+    const-string v1, "ad_slot"
+
+    .line 40
+    .line 41
+    iget-object v2, p0, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;->ZYk:Lcom/bytedance/sdk/openadsdk/AdSlot;
+
+    .line 42
+    .line 43
+    invoke-virtual {v0, v1, v2}, Lcom/bykv/vk/openvk/oJ/oJ/oJ/tB/tB;->oJ(Ljava/lang/String;Ljava/lang/Object;)V
+
+    .line 44
+    .line 45
+    .line 46
+    new-instance v1, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB$1;
+
+    .line 47
+    .line 48
+    invoke-direct {v1, p0}, Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB$1;-><init>(Lcom/bytedance/sdk/openadsdk/component/reward/Pfn$tB;)V
+
+    .line 49
+    .line 50
+    .line 51
+    invoke-static {v0, v1}, Lcom/bytedance/sdk/openadsdk/core/BTZ/Pfn/oJ;->oJ(Lcom/bykv/vk/openvk/oJ/oJ/oJ/tB/tB;Lcom/bykv/vk/openvk/oJ/oJ/oJ/Pfn/oJ$oJ;)V
+
+    .line 52
+    .line 53
+    .line 54
+    :cond_1
+    return-void
+.end method

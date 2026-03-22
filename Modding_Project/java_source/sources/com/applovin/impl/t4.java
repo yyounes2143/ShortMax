@@ -1,0 +1,15 @@
+package com.applovin.impl;
+
+import android.text.SpannedString;
+import com.applovin.impl.o2;
+/* loaded from: classes2.dex */
+public class t4 extends o2 {
+    public t4(String str) {
+        super(o2.c.SECTION);
+        this.f9076c = new SpannedString(str);
+    }
+
+    public String toString() {
+        return "SectionListItemViewModel{text=" + ((Object) this.f9076c) + "}";
+    }
+}

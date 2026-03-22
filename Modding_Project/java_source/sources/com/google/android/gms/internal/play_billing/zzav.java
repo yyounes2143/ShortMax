@@ -1,0 +1,22 @@
+package com.google.android.gms.internal.play_billing;
+
+import android.os.Parcel;
+import android.os.RemoteException;
+/* compiled from: com.android.billingclient:billing@@8.0.0 */
+/* loaded from: classes5.dex */
+public abstract class zzav extends zzaq implements zzaw {
+    public zzav() {
+        super("com.google.android.apps.play.billingtestcompanion.aidl.IBillingOverrideServiceCallback");
+    }
+
+    @Override // com.google.android.gms.internal.play_billing.zzaq
+    protected final boolean zzb(int i10, Parcel parcel, Parcel parcel2, int i11) throws RemoteException {
+        if (i10 == 1) {
+            int readInt = parcel.readInt();
+            zzar.zzb(parcel);
+            zza(readInt);
+            return true;
+        }
+        return false;
+    }
+}

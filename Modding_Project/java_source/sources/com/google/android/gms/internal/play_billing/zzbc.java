@@ -1,0 +1,49 @@
+package com.google.android.gms.internal.play_billing;
+
+import java.util.Arrays;
+/* compiled from: com.android.billingclient:billing@@8.0.0 */
+/* loaded from: classes5.dex */
+public final class zzbc {
+    private final String zza;
+    private final zzbb zzb;
+    private zzbb zzc;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public /* synthetic */ zzbc(String str, zzbd zzbdVar) {
+        zzbb zzbbVar = new zzbb();
+        this.zzb = zzbbVar;
+        this.zzc = zzbbVar;
+        str.getClass();
+        this.zza = str;
+    }
+
+    public final String toString() {
+        StringBuilder sb2 = new StringBuilder(32);
+        sb2.append(this.zza);
+        sb2.append('{');
+        zzbb zzbbVar = this.zzb.zzb;
+        String str = "";
+        while (zzbbVar != null) {
+            Object obj = zzbbVar.zza;
+            sb2.append(str);
+            if (obj != null && obj.getClass().isArray()) {
+                String deepToString = Arrays.deepToString(new Object[]{obj});
+                sb2.append((CharSequence) deepToString, 1, deepToString.length() - 1);
+            } else {
+                sb2.append(obj);
+            }
+            zzbbVar = zzbbVar.zzb;
+            str = ", ";
+        }
+        sb2.append('}');
+        return sb2.toString();
+    }
+
+    public final zzbc zza(Object obj) {
+        zzbb zzbbVar = new zzbb();
+        this.zzc.zzb = zzbbVar;
+        this.zzc = zzbbVar;
+        zzbbVar.zza = obj;
+        return this;
+    }
+}

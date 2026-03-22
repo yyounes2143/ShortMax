@@ -1,0 +1,61 @@
+package com.startshorts.androidplayer.repo.billing.subs;
+
+import com.startshorts.androidplayer.bean.subs.SubsSku;
+import com.startshorts.androidplayer.repo.billing.BillingRepo;
+import gt.g0;
+import kotlin.Metadata;
+import kotlin.Unit;
+import kotlin.coroutines.jvm.internal.SuspendLambda;
+import kotlin.coroutines.jvm.internal.d;
+import kotlin.f;
+import kotlin.jvm.functions.Function2;
+import rs.c;
+/* JADX INFO: Access modifiers changed from: package-private */
+/* compiled from: SubsRepo.kt */
+@Metadata
+@d(c = "com.startshorts.androidplayer.repo.billing.subs.SubsRepo$gPayUpgradePremium$3$1", f = "SubsRepo.kt", l = {}, m = "invokeSuspend")
+/* loaded from: classes7.dex */
+public final class SubsRepo$gPayUpgradePremium$3$1 extends SuspendLambda implements Function2<g0, c<? super Unit>, Object> {
+
+    /* renamed from: h  reason: collision with root package name */
+    int f43552h;
+
+    /* renamed from: i  reason: collision with root package name */
+    final /* synthetic */ String f43553i;
+
+    /* renamed from: j  reason: collision with root package name */
+    final /* synthetic */ SubsSku f43554j;
+
+    /* renamed from: k  reason: collision with root package name */
+    final /* synthetic */ Throwable f43555k;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public SubsRepo$gPayUpgradePremium$3$1(String str, SubsSku subsSku, Throwable th2, c<? super SubsRepo$gPayUpgradePremium$3$1> cVar) {
+        super(2, cVar);
+        this.f43553i = str;
+        this.f43554j = subsSku;
+        this.f43555k = th2;
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final c<Unit> create(Object obj, c<?> cVar) {
+        return new SubsRepo$gPayUpgradePremium$3$1(this.f43553i, this.f43554j, this.f43555k, cVar);
+    }
+
+    @Override // kotlin.jvm.functions.Function2
+    public final Object invoke(g0 g0Var, c<? super Unit> cVar) {
+        return ((SubsRepo$gPayUpgradePremium$3$1) create(g0Var, cVar)).invokeSuspend(Unit.f60915a);
+    }
+
+    @Override // kotlin.coroutines.jvm.internal.BaseContinuationImpl
+    public final Object invokeSuspend(Object obj) {
+        kotlin.coroutines.intrinsics.a.f();
+        if (this.f43552h == 0) {
+            f.b(obj);
+            BillingRepo.f43237a.a0(this.f43553i, this.f43554j.getSkuId(), this.f43555k.getMessage(), 1);
+            return Unit.f60915a;
+        }
+        throw new IllegalStateException("call to 'resume' before 'invoke' with coroutine");
+    }
+}

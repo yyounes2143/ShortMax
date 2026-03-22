@@ -1,0 +1,892 @@
+{
+  "adGroup": {
+    "t1": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t2": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t3": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ],
+    "t4": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "2dfe9499da72dad4",
+            "name": "ShortMax_and_open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "522e00ebc37249e7",
+            "name": "ShortMax_and_reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "4bc13253bf832117",
+            "name": "ShortMax_and_reward2",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "20bf762af3517a70",
+            "name": "ShortMax_and_inter",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          }
+        ],
+        "banner": [
+          {
+            "id": "eed118b49edda77c",
+            "name": "test_and_banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "cf9004834a458848",
+            "name": "test_ios_native",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ]
+      }
+    ]
+  }
+}

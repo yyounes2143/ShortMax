@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="15.0sp" android:gravity="center" android:tag="layout/item_play_resolution_experiment_text_0" android:background="@drawable/bg_play_resolution_experiment_view" android:layout_width="66.0dip" android:layout_height="66.0dip" app:custom_typeface="@string/typeface_medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,17 @@
+package com.google.android.gms.internal.measurement;
+/* compiled from: com.google.android.gms:play-services-measurement-impl@@23.0.0 */
+/* loaded from: classes5.dex */
+final class zziq implements zzmk {
+    static final zzmk zza = new zziq();
+
+    private zziq() {
+    }
+
+    @Override // com.google.android.gms.internal.measurement.zzmk
+    public final boolean zza(int i10) {
+        if (zzir.zza(i10) != 0) {
+            return true;
+        }
+        return false;
+    }
+}

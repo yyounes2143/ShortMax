@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <solid android:color="@color/color_subs_type_view_bg_pro_button"/>
+    <stroke android:width="2dp" android:color="@color/color_subs_type_view_pro_button_stroke"/>
+    <corners android:radius="20dp"/>
+</shape>

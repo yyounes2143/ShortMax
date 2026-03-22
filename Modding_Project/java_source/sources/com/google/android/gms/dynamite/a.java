@@ -1,0 +1,10 @@
+package com.google.android.gms.dynamite;
+
+import dalvik.system.DelegateLastClassLoader;
+/* compiled from: R8$$SyntheticClass */
+/* loaded from: classes4.dex */
+public final /* synthetic */ class a {
+    public static /* synthetic */ DelegateLastClassLoader a(String str, ClassLoader classLoader) {
+        return new DelegateLastClassLoader(str, classLoader);
+    }
+}

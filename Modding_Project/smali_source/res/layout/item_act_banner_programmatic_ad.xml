@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" app:cardBackgroundColor="@android:color/transparent" app:cardCornerRadius="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_act_banner_placeholder" android:scaleType="fitXY" android:importantForAccessibility="no" />
+    <FrameLayout android:id="@id/ad_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:importantForAccessibility="no" />
+</androidx.cardview.widget.CardView>

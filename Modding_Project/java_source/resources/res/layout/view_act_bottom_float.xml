@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@+id/act_bottom_float_resource_iv" android:layout_width="170dp" android:layout_height="100dp" android:contentDescription="@string/pic" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@+id/act_bottom_float_resource_iv_shrink" android:visibility="gone" android:layout_width="170dp" android:layout_height="60dp" android:contentDescription="@string/pic" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</merge>

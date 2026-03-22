@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/custom_icon" android:layout_width="54dp" android:layout_height="72dp" android:src="@drawable/ic_cover_placeholder" android:scaleType="centerCrop" android:contentDescription="@string/cover_pic"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_weight="1" android:layout_marginStart="12dp" android:layout_marginEnd="12dp">
+            <TextView android:textSize="16sp" android:ellipsize="end" android:id="@+id/title_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/Notification.Title.Short"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                <TextView android:textSize="14sp" android:textColor="@color/primary_normal" android:ellipsize="end" android:id="@+id/tv_drama_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_marginEnd="4dp"/>
+                <TextView android:ellipsize="end" android:id="@+id/tv_drama_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" style="@style/Notification.Content.Short"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/iv_ntf_close" android:layout_width="12dp" android:layout_height="12dp" android:src="@drawable/ntf_icon_close" android:contentDescription="@string/close" android:layout_marginEnd="4dp"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center" android:background="@drawable/bg_notification_short_button" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginTop="8dp" android:layout_marginEnd="60dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/iv_play_icon" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ntf_clear_play" android:importantForAccessibility="no" android:layout_marginEnd="4dp"/>
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/enter_button" android:layout_width="wrap_content" android:layout_height="20dp" android:text="@string/continue_watching" android:includeFontPadding="false" android:textAlignment="gravity" android:layout_marginStart="4dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toEndOf="@+id/iv_play_icon" app:layout_constraintTop_toTopOf="0"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

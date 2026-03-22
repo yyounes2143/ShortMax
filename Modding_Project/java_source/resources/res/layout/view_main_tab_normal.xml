@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@+id/high_light_view" android:layout_width="72dp" android:layout_height="match_parent" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0"/>
+    <ImageView android:id="@+id/tab_iv" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginTop="5dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <View android:id="@+id/red_point_view" android:background="@drawable/ic_red_circle" android:visibility="gone" android:layout_width="5dp" android:layout_height="5dp" android:layout_marginTop="7dp" app:layout_constraintStart_toEndOf="@+id/tab_iv" app:layout_constraintTop_toTopOf="0"/>
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="10sp" android:ellipsize="end" android:gravity="center" android:id="@+id/tab_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:maxLines="1" app:layout_constraintTop_toTopOf="0"/>
+</merge>

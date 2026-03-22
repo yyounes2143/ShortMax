@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.measurement;
+
+import android.os.Binder;
+import androidx.annotation.Nullable;
+/* compiled from: com.google.android.gms:play-services-measurement-impl@@23.0.0 */
+/* loaded from: classes5.dex */
+interface zzjv {
+    static Object zzh(zzju zzjuVar) {
+        try {
+            return zzjuVar.zza();
+        } catch (SecurityException unused) {
+            long clearCallingIdentity = Binder.clearCallingIdentity();
+            try {
+                return zzjuVar.zza();
+            } finally {
+                Binder.restoreCallingIdentity(clearCallingIdentity);
+            }
+        }
+    }
+
+    @Nullable
+    Object zze(String str);
+}

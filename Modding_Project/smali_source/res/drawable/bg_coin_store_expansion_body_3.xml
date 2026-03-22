@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient android:startColor="@color/color_coin_store_dialog_fragment_expansion_body_bg_start" android:endColor="@color/color_coin_store_dialog_fragment_expansion_body_bg_end" android:useLevel="true" android:angle="90.0" android:type="linear" />
+    <corners android:radius="8.0dip" />
+</shape>

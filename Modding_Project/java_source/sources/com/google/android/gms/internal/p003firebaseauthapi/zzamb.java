@@ -1,0 +1,33 @@
+package com.google.android.gms.internal.p003firebaseauthapi;
+/* compiled from: com.google.firebase:firebase-auth@@24.0.1 */
+/* renamed from: com.google.android.gms.internal.firebase-auth-api.zzamb  reason: invalid package */
+/* loaded from: classes4.dex */
+final class zzamb implements zzamj {
+    private zzamj[] zza;
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public zzamb(zzamj... zzamjVarArr) {
+        this.zza = zzamjVarArr;
+    }
+
+    @Override // com.google.android.gms.internal.p003firebaseauthapi.zzamj
+    public final zzamk zza(Class<?> cls) {
+        zzamj[] zzamjVarArr;
+        for (zzamj zzamjVar : this.zza) {
+            if (zzamjVar.zzb(cls)) {
+                return zzamjVar.zza(cls);
+            }
+        }
+        throw new UnsupportedOperationException("No factory is available for message type: " + cls.getName());
+    }
+
+    @Override // com.google.android.gms.internal.p003firebaseauthapi.zzamj
+    public final boolean zzb(Class<?> cls) {
+        for (zzamj zzamjVar : this.zza) {
+            if (zzamjVar.zzb(cls)) {
+                return true;
+            }
+        }
+        return false;
+    }
+}

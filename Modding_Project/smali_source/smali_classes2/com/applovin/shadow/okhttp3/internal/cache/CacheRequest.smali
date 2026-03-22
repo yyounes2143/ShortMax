@@ -1,0 +1,24 @@
+.class public interface abstract Lcom/applovin/shadow/okhttp3/internal/cache/CacheRequest;
+.super Ljava/lang/Object;
+.source "CacheRequest.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract abort()V
+.end method
+
+.method public abstract body()Lcom/applovin/shadow/okio/Sink;
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/io/IOException;
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method

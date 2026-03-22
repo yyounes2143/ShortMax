@@ -1,0 +1,4 @@
+package com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.mraid;
+/* loaded from: classes6.dex */
+public interface q extends com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.vast.render.d, com.moloco.sdk.xenoss.sdkdevkit.android.adrenderer.internal.vast.render.b {
+}

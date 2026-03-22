@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.immersion.tip.Free1080ClarityView android:id="@id/free_clarity_view" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_marginEnd="56.0dip" app:layout_constraintBottom_toBottomOf="@id/recycler_view" app:layout_constraintEnd_toStartOf="@id/recycler_view" />
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="end|bottom|center" android:id="@id/recycler_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="64.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="immersion_discount_title">11.0sp</dimen>
+    <dimen name="immersion_discount_unlock_title">15.0sp</dimen>
+</resources>

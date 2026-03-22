@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@id/cover_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/banner_pic" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="13.0sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="start" android:id="@id/shorts_name_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:maxLines="2" android:lineSpacingExtra="3.0dip" android:textAlignment="viewStart" app:custom_typeface="@string/typeface_medium" />
+</LinearLayout>

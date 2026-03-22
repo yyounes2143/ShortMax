@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/empty_iv" android:layout_width="140.0dip" android:layout_height="140.0dip" android:src="@drawable/ic_disable_recharge_empty" app:layout_constraintBottom_toTopOf="@id/empty_tv" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+        <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="16.0sp" android:textColor="@color/color_my_list_fragment_empty_desc" android:gravity="center" android:id="@id/empty_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="24.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="24.0dip" android:text="@string/common_recharge_not_supported" android:lineSpacingExtra="3.0dip" android:layout_marginHorizontal="24.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/empty_iv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

@@ -1,0 +1,20 @@
+{
+  "Version": "1.0",
+  "IdentityManager": {
+    "Default": {}
+  },
+  "CredentialsProvider": {
+    "CognitoIdentity": {
+      "Default": {
+        "PoolId": "us-west-1:a6d44c7e-1164-4870-b1f7-e101a7605847",
+        "Region": "us-west-1"
+      }
+    }
+  },
+  "S3TransferUtility": {
+    "Default": {
+      "Bucket": "shorttv-app-logs",
+      "Region": "us-west-1"
+    }
+  }
+}

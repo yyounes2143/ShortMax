@@ -1,0 +1,3 @@
+.class public Lcom/amazonaws/services/kms/model/XksProxyVpcEndpointServiceInvalidConfigurationException;
+.super Lcom/amazonaws/AmazonServiceException;
+.source "XksProxyVpcEndpointServiceInvalidConfigurationException.java"

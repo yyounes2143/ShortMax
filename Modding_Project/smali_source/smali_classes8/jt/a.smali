@@ -1,0 +1,53 @@
+.class public final synthetic Ljt/a;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lat/n;
+
+
+# instance fields
+.field public final synthetic a:Lkotlinx/coroutines/channels/BufferedChannel;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lkotlinx/coroutines/channels/BufferedChannel;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Ljt/a;->a:Lkotlinx/coroutines/channels/BufferedChannel;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Ljt/a;->a:Lkotlinx/coroutines/channels/BufferedChannel;
+
+    .line 2
+    .line 3
+    check-cast p1, Lpt/i;
+
+    .line 4
+    .line 5
+    invoke-static {v0, p1, p2, p3}, Lkotlinx/coroutines/channels/BufferedChannel;->d(Lkotlinx/coroutines/channels/BufferedChannel;Lpt/i;Ljava/lang/Object;Ljava/lang/Object;)Lat/n;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    return-object p1
+.end method

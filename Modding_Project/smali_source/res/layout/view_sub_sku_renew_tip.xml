@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:layout_marginHorizontal="6.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/renew_arrow_iv" android:layout_width="30.0dip" android:layout_height="4.0dip" android:layout_marginTop="2.0dip" android:src="@drawable/ic_sub_small_renew_arrow" android:importantForAccessibility="no" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="10.0sp" android:textColor="@color/template_subs_renew_tip_nor" android:id="@id/renew_tips_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/renew_arrow_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

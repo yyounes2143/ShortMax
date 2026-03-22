@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_play_resolution_experiment_text_icon_0" android:background="@drawable/bg_play_resolution_experiment_view" android:layout_width="66.0dip" android:layout_height="66.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="6.0dip" android:src="@drawable/ic_video_vip_resolution" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="15.0sp" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:custom_typeface="@string/typeface_medium" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

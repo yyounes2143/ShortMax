@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_discover_webview_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.utils.scroll.WebViewScrollableHost android:background="@color/color_common_page_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_weight="1.0" app:layout_constraintTop_toTopOf="@id/toolbar_layout">
+        <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.startshorts.androidplayer.utils.scroll.WebViewScrollableHost>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/toolbar_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+        <android.widget.ProgressBar android:id="@id/load_process_progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progressTint="@color/colorPrimary" app:layout_constraintBottom_toBottomOf="parent" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

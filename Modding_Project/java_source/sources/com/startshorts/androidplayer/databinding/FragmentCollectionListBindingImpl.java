@@ -1,0 +1,104 @@
+package com.startshorts.androidplayer.databinding;
+
+import android.util.SparseIntArray;
+import android.view.View;
+import android.view.ViewStub;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.constraintlayout.widget.ConstraintLayout;
+import androidx.databinding.DataBindingComponent;
+import androidx.databinding.ViewDataBinding;
+import androidx.databinding.ViewStubProxy;
+import androidx.viewpager2.widget.ViewPager2;
+import com.startshorts.androidplayer.R$id;
+import com.startshorts.androidplayer.ui.view.base.BaseTextView;
+import com.startshorts.androidplayer.ui.view.base.TabView;
+/* loaded from: classes6.dex */
+public class FragmentCollectionListBindingImpl extends FragmentCollectionListBinding {
+    @Nullable
+
+    /* renamed from: j  reason: collision with root package name */
+    private static final ViewDataBinding.IncludedLayouts f39406j = null;
+    @Nullable
+
+    /* renamed from: k  reason: collision with root package name */
+    private static final SparseIntArray f39407k;
+    @NonNull
+
+    /* renamed from: h  reason: collision with root package name */
+    private final LinearLayout f39408h;
+
+    /* renamed from: i  reason: collision with root package name */
+    private long f39409i;
+
+    static {
+        SparseIntArray sparseIntArray = new SparseIntArray();
+        f39407k = sparseIntArray;
+        sparseIntArray.put(R$id.toolbar_view, 1);
+        sparseIntArray.put(R$id.title_tv, 2);
+        sparseIntArray.put(R$id.edit_iv, 3);
+        sparseIntArray.put(R$id.edit_click_tv, 4);
+        sparseIntArray.put(R$id.tab_view, 5);
+        sparseIntArray.put(R$id.view_pager, 6);
+        sparseIntArray.put(R$id.edit_viewstub, 7);
+    }
+
+    public FragmentCollectionListBindingImpl(@Nullable DataBindingComponent dataBindingComponent, @NonNull View view) {
+        this(dataBindingComponent, view, ViewDataBinding.mapBindings(dataBindingComponent, view, 8, f39406j, f39407k));
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    protected void executeBindings() {
+        synchronized (this) {
+            this.f39409i = 0L;
+        }
+        if (this.f39401c.getBinding() != null) {
+            ViewDataBinding.executeBindingsOn(this.f39401c.getBinding());
+        }
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean hasPendingBindings() {
+        synchronized (this) {
+            try {
+                if (this.f39409i != 0) {
+                    return true;
+                }
+                return false;
+            } catch (Throwable th2) {
+                throw th2;
+            }
+        }
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public void invalidateAll() {
+        synchronized (this) {
+            this.f39409i = 1L;
+        }
+        requestRebind();
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    protected boolean onFieldChange(int i10, Object obj, int i11) {
+        return false;
+    }
+
+    @Override // androidx.databinding.ViewDataBinding
+    public boolean setVariable(int i10, @Nullable Object obj) {
+        return true;
+    }
+
+    private FragmentCollectionListBindingImpl(DataBindingComponent dataBindingComponent, View view, Object[] objArr) {
+        super(dataBindingComponent, view, 0, (BaseTextView) objArr[4], (ImageView) objArr[3], new ViewStubProxy((ViewStub) objArr[7]), (TabView) objArr[5], (BaseTextView) objArr[2], (ConstraintLayout) objArr[1], (ViewPager2) objArr[6]);
+        this.f39409i = -1L;
+        this.f39401c.setContainingBinding(this);
+        LinearLayout linearLayout = (LinearLayout) objArr[0];
+        this.f39408h = linearLayout;
+        linearLayout.setTag(null);
+        setRootTag(view);
+        invalidateAll();
+    }
+}

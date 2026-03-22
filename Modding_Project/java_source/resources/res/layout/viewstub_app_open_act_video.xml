@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:color/black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextureView android:id="@+id/video_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="start|top" android:id="@+id/mute_iv" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="64dp" android:src="@drawable/ic_video_preview_no_sound" android:contentDescription="@string/sound_control" android:layout_marginStart="28dp"/>
+</FrameLayout>

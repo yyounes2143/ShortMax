@@ -1,0 +1,40 @@
+.class public interface abstract Landroidx/core/app/OnNewIntentProvider;
+.super Ljava/lang/Object;
+.source "OnNewIntentProvider.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract addOnNewIntentListener(Landroidx/core/util/Consumer;)V
+    .param p1    # Landroidx/core/util/Consumer;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/core/util/Consumer<",
+            "Landroid/content/Intent;",
+            ">;)V"
+        }
+    .end annotation
+.end method
+
+.method public abstract removeOnNewIntentListener(Landroidx/core/util/Consumer;)V
+    .param p1    # Landroidx/core/util/Consumer;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Landroidx/core/util/Consumer<",
+            "Landroid/content/Intent;",
+            ">;)V"
+        }
+    .end annotation
+.end method

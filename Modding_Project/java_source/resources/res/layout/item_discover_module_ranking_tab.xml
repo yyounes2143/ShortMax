@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:tag="layout/item_discover_module_ranking_tab_0" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="14sp" android:ellipsize="end" android:gravity="center" android:id="@+id/title_tv" android:tag="binding_1" android:paddingLeft="11dp" android:paddingRight="11dp" android:layout_width="wrap_content" android:layout_height="28dp" android:minWidth="70dp" android:maxLines="1" android:paddingHorizontal="11dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

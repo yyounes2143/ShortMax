@@ -1,0 +1,18 @@
+package com.google.android.recaptcha.internal;
+
+import java.util.Map;
+import org.jetbrains.annotations.NotNull;
+/* compiled from: com.google.android.recaptcha:recaptcha@@18.6.1 */
+/* loaded from: classes5.dex */
+public final class zzbc {
+    @NotNull
+    public static final zzbd zza(@NotNull zztv zztvVar) {
+        Map map;
+        map = zzbd.zzb;
+        zzbd zzbdVar = (zzbd) map.get(zztvVar);
+        if (zzbdVar == null) {
+            return new zzbd(zzbb.zza, zzba.zzaq, null);
+        }
+        return zzbdVar;
+    }
+}

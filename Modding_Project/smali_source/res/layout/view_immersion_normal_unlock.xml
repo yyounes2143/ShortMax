@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/unlock_iv" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/ic_immersion_unlock_button" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/unlock_tv" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="15.0sp" android:textColor="@android:color/white" android:id="@id/unlock_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/immersion_activity_unlock_now" android:layout_marginStart="8.0dip" app:custom_typeface="@string/typeface_semi_bold" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/unlock_iv" app:layout_constraintTop_toTopOf="parent" />
+</merge>

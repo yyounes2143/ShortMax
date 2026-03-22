@@ -1,0 +1,19 @@
+package com.startshorts.androidplayer.databinding;
+
+import android.view.View;
+import androidx.annotation.NonNull;
+import androidx.databinding.ViewDataBinding;
+import com.startshorts.androidplayer.ui.view.base.BaseTextView;
+/* loaded from: classes6.dex */
+public abstract class ViewItemLoadMoreEndBinding extends ViewDataBinding {
+    @NonNull
+
+    /* renamed from: a  reason: collision with root package name */
+    public final BaseTextView f41262a;
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    public ViewItemLoadMoreEndBinding(Object obj, View view, int i10, BaseTextView baseTextView) {
+        super(obj, view, i10);
+        this.f41262a = baseTextView;
+    }
+}

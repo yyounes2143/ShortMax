@@ -1,0 +1,28 @@
+package com.google.android.gms.internal.auth;
+/* compiled from: com.google.android.gms:play-services-auth-base@@18.0.10 */
+/* loaded from: classes4.dex */
+final class zzft {
+    private static final zzfs zza;
+    private static final zzfs zzb;
+
+    static {
+        zzfs zzfsVar;
+        try {
+            zzfsVar = (zzfs) Class.forName("com.google.protobuf.MapFieldSchemaFull").getDeclaredConstructor(new Class[0]).newInstance(new Object[0]);
+        } catch (Exception unused) {
+            zzfsVar = null;
+        }
+        zza = zzfsVar;
+        zzb = new zzfs();
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static zzfs zza() {
+        return zza;
+    }
+
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public static zzfs zzb() {
+        return zzb;
+    }
+}

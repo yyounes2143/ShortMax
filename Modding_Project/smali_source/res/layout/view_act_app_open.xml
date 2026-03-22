@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/picture_viewstub" android:layout="@layout/viewstub_app_open_act_picture" android:inflatedId="@id/picture_viewstub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ViewStub android:id="@id/video_viewstub" android:layout="@layout/viewstub_app_open_act_video" android:inflatedId="@id/video_viewstub" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="13.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/count_down_tv" android:background="@drawable/bg_app_open_count" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="29.0dip" android:layout_marginTop="64.0dip" android:layout_marginEnd="28.0dip" android:paddingHorizontal="12.0dip" app:custom_typeface="@string/typeface_medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

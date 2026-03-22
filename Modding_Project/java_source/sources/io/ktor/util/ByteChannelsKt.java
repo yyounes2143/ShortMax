@@ -1,0 +1,67 @@
+package io.ktor.util;
+
+import kotlin.Metadata;
+/* compiled from: ByteChannels.kt */
+@Metadata
+/* loaded from: classes8.dex */
+public final class ByteChannelsKt {
+    /* JADX WARN: Removed duplicated region for block: B:11:0x0025  */
+    /* JADX WARN: Removed duplicated region for block: B:15:0x0033  */
+    @org.jetbrains.annotations.Nullable
+    /*
+        Code decompiled incorrectly, please refer to instructions dump.
+        To view partially-correct add '--show-bad-code' argument
+    */
+    public static final java.lang.Object a(@org.jetbrains.annotations.NotNull io.ktor.utils.io.ByteReadChannel r8, @org.jetbrains.annotations.NotNull rs.c<? super byte[]> r9) {
+        /*
+            boolean r0 = r9 instanceof io.ktor.util.ByteChannelsKt$toByteArray$1
+            if (r0 == 0) goto L14
+            r0 = r9
+            io.ktor.util.ByteChannelsKt$toByteArray$1 r0 = (io.ktor.util.ByteChannelsKt$toByteArray$1) r0
+            int r1 = r0.f59287i
+            r2 = -2147483648(0xffffffff80000000, float:-0.0)
+            r3 = r1 & r2
+            if (r3 == 0) goto L14
+            int r1 = r1 - r2
+            r0.f59287i = r1
+        L12:
+            r4 = r0
+            goto L1a
+        L14:
+            io.ktor.util.ByteChannelsKt$toByteArray$1 r0 = new io.ktor.util.ByteChannelsKt$toByteArray$1
+            r0.<init>(r9)
+            goto L12
+        L1a:
+            java.lang.Object r9 = r4.f59286h
+            java.lang.Object r0 = kotlin.coroutines.intrinsics.a.f()
+            int r1 = r4.f59287i
+            r7 = 1
+            if (r1 == 0) goto L33
+            if (r1 != r7) goto L2b
+            kotlin.f.b(r9)
+            goto L44
+        L2b:
+            java.lang.IllegalStateException r8 = new java.lang.IllegalStateException
+            java.lang.String r9 = "call to 'resume' before 'invoke' with coroutine"
+            r8.<init>(r9)
+            throw r8
+        L33:
+            kotlin.f.b(r9)
+            r4.f59287i = r7
+            r2 = 0
+            r5 = 1
+            r6 = 0
+            r1 = r8
+            java.lang.Object r9 = io.ktor.utils.io.ByteReadChannel.a.a(r1, r2, r4, r5, r6)
+            if (r9 != r0) goto L44
+            return r0
+        L44:
+            hs.j r9 = (hs.j) r9
+            r8 = 0
+            r0 = 0
+            byte[] r8 = hs.q.c(r9, r8, r7, r0)
+            return r8
+        */
+        throw new UnsupportedOperationException("Method not decompiled: io.ktor.util.ByteChannelsKt.a(io.ktor.utils.io.ByteReadChannel, rs.c):java.lang.Object");
+    }
+}

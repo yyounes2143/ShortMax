@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/cl_root" android:tag="layout/view_subtitle_0" android:paddingBottom="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@+id/percent_line" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.7"/>
+    <View android:id="@+id/startSpace" android:layout_width="28dp" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="0"/>
+    <View android:id="@+id/endSpace" android:layout_width="28dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="0"/>
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="23sp" android:textColor="@android:color/white" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/subtitle_tv" android:layout_width="0dp" android:layout_height="0dp" app:custom_typeface="@string/typeface_subtitle_semi_bold" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/endSpace" app:layout_constraintStart_toEndOf="@+id/startSpace" app:layout_constraintTop_toBottomOf="@+id/percent_line" style="@style/TextViewStyle.Shadow.Subtitle"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

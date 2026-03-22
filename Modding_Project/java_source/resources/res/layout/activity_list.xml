@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:tag="layout/activity_list_0" android:background="@color/color_common_page_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@+id/recycler_view_viewstub" android:layout="@layout/viewstub_recycler_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.hades.aar.pagestate.StateViewGroup android:id="@+id/page_state_view" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

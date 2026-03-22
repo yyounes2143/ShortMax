@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="11sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@+id/tip_tv" android:background="@drawable/bg_reward_tip_in_discover" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginBottom="-18dp" android:paddingHorizontal="7dp" app:custom_typeface="@string/typeface_bold" app:layout_constraintBottom_toTopOf="@+id/box_iv" app:layout_constraintStart_toStartOf="0"/>
+        <com.airbnb.lottie.LottieAnimationView android:id="@+id/box_iv" android:layout_width="44dp" android:layout_height="44dp" android:importantForAccessibility="no" android:layout_marginStart="1dp" app:layout_constraintStart_toEndOf="@+id/tip_tv" app:layout_constraintTop_toTopOf="0" app:lottie_autoPlay="true" app:lottie_fileName="animation/home_reward/home_reward.json" app:lottie_imageAssetsFolder="animation/home_reward/images/" app:lottie_loop="true"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

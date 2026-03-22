@@ -1,0 +1,11 @@
+package androidx.webkit;
+
+import androidx.webkit.WebViewBuilder;
+@WebViewBuilder.Experimental
+/* loaded from: classes2.dex */
+public class WebViewBuilderException extends RuntimeException {
+    /* JADX INFO: Access modifiers changed from: package-private */
+    public WebViewBuilderException(Throwable th2) {
+        super(th2);
+    }
+}

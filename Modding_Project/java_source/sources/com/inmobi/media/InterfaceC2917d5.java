@@ -1,0 +1,8 @@
+package com.inmobi.media;
+
+import android.view.View;
+/* renamed from: com.inmobi.media.d5  reason: case insensitive filesystem */
+/* loaded from: classes5.dex */
+public interface InterfaceC2917d5 {
+    void a(View view, Object obj);
+}

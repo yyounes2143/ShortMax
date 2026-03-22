@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.startshorts.androidplayer.ui.view.refresh.SafeSmartRefreshLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:srlDisableContentWhenLoading="true" app:srlDisableContentWhenRefresh="true" app:srlDragRate="1.0" app:srlEnableAutoLoadMore="false" app:srlEnableLoadMore="false" app:srlEnableNestedScrolling="false" app:srlEnableRefresh="false" app:srlEnableScrollContentWhenLoaded="false" app:srlEnableScrollContentWhenRefreshed="false" app:srlFooterMaxDragRate="1.0" app:srlFooterTriggerRate="0.3" app:srlHeaderHeight="180.0dip" app:srlHeaderMaxDragRate="1.0" app:srlHeaderTriggerRate="0.6"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.refresh.MaterialHeader android:id="@id/refresh_header" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.startshorts.androidplayer.ui.view.refresh.BallPulseFooter android:id="@id/loading_footer" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+</com.startshorts.androidplayer.ui.view.refresh.SafeSmartRefreshLayout>

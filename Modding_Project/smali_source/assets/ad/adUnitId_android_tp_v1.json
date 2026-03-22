@@ -1,0 +1,1260 @@
+{
+  "adGroup": {
+    "t1": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      }
+    ],
+    "t2": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      }
+    ],
+    "t3": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      }
+    ],
+    "t4": [
+      {
+        "maxActiveTime": 0,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 86400000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 259200000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      },
+      {
+        "maxActiveTime": 33256794784000,
+        "appOpen": [
+          {
+            "id": "77CFB1AB4DF797EFD7F00E39EB220110",
+            "name": "Open",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "appOpen"
+          }
+        ],
+        "reward": [
+          {
+            "id": "9A06BA1F6922BE158B09072B29331BAD",
+            "name": "Reward",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "reward"
+          },
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "interstitial": [
+          {
+            "id": "5ECAE50B7637EC70612D40B29D55CC04",
+            "name": "Interstitial",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "interstitial"
+          },
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "0",
+            "type": "native"
+          }
+        ],
+        "banner": [
+          {
+            "id": "4C1E871B82DA6B3CC97BA535097AC0C1",
+            "name": "Banner",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "banner"
+          }
+        ],
+        "native": [
+          {
+            "id": "4C4119F4B7D0CF9EAD07990F4AF1B97A",
+            "name": "Native-Full screen",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "native"
+          }
+        ],
+        "mediaVideo": [
+          {
+            "id": "C85273920334E6A139E7E6A0FB3E83F9",
+            "name": "In-stream",
+            "dailyMaxShowCount": 5,
+            "priority": "1",
+            "type": "mediaVideo"
+          }
+        ]
+      }
+    ]
+  }
+}

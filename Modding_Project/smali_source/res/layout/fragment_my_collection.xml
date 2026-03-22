@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/fragment_my_collection_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout android:id="@id/refresh_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tr_enable_loadmore="false" app:tr_enable_overscroll="false" app:tr_enable_refresh="false" app:tr_floatRefresh="true">
+        <ViewStub android:id="@id/recycler_view_viewstub" android:layout="@layout/viewstub_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
+    <com.hades.aar.pagestate.StateViewGroup android:id="@id/page_state_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

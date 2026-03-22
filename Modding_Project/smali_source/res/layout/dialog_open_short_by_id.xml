@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/dialog_open_short_by_id_0" android:background="@color/color_common_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="14.0sp" android:id="@id/edit_text" android:background="@android:drawable/edit_text" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" android:hint="输入shortPlayId..." android:inputType="number" android:imeOptions="actionDone" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:gravity="center" android:id="@id/read_copy" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="读取剪切板" app:layout_constraintEnd_toStartOf="@id/go" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/edit_text" />
+    <TextView android:gravity="center" android:id="@id/go" android:layout_width="0.0dip" android:layout_height="40.0dip" android:text="打开剧" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/read_copy" app:layout_constraintTop_toBottomOf="@id/edit_text" />
+</androidx.constraintlayout.widget.ConstraintLayout>

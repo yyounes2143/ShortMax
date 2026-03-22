@@ -1,0 +1,45 @@
+.class public interface abstract Lkotlin/reflect/KMutableProperty2$Setter;
+.super Ljava/lang/Object;
+.source "KProperty.kt"
+
+# interfaces
+.implements Lkotlin/reflect/KMutableProperty$Setter;
+.implements Lat/n;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lkotlin/reflect/KMutableProperty2;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "Setter"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<D:",
+        "Ljava/lang/Object;",
+        "E:",
+        "Ljava/lang/Object;",
+        "V:",
+        "Ljava/lang/Object;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lkotlin/reflect/KMutableProperty$Setter<",
+        "TV;>;",
+        "Lat/n<",
+        "TD;TE;TV;",
+        "Lkotlin/Unit;",
+        ">;"
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+.end annotation
+
+
+# virtual methods
+.method public abstract synthetic invoke(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+.end method

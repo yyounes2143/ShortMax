@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/item_discover_module_carousel_0" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@id/top_space_v" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintDimensionRatio="w,0.87:1" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/banner_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/top_mask_v" android:layout_width="fill_parent" android:layout_height="160.0dip" android:src="@drawable/bg_discover_banner_top" android:scaleType="fitXY" android:importantForAccessibility="no" app:layout_constraintTop_toTopOf="parent" />
+    <ImageView android:id="@id/botton_mask_v" android:layout_width="fill_parent" android:layout_height="30.0dip" android:src="@drawable/bg_discover_banner_bottom_5" android:scaleType="fitXY" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="parent" />
+    <com.startshorts.androidplayer.ui.view.discover.BannerIndicatorView android:id="@id/indicator_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <ImageView android:id="@id/play_iv" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_marginBottom="22.0dip" android:src="@drawable/ic_discover_banner_play" android:importantForAccessibility="no" android:layout_marginEnd="20.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

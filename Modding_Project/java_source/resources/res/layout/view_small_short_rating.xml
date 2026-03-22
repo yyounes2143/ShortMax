@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@+id/start_line_view" android:background="@android:color/white" android:layout_width="1dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rating_icon_ll" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6dp" app:layout_constraintStart_toEndOf="@+id/start_line_view"/>
+    <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="6sp" android:textColor="@android:color/white" android:id="@+id/content_desc_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:maxWidth="154dp" android:lineSpacingExtra="2sp" android:lineSpacingMultiplier="1" android:layout_marginStart="6dp" app:custom_typeface="@string/typeface_bold" app:layout_constraintStart_toStartOf="@+id/start_line_view" app:layout_constraintTop_toBottomOf="@+id/rating_icon_ll"/>
+</merge>

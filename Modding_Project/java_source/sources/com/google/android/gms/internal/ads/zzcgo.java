@@ -1,0 +1,52 @@
+package com.google.android.gms.internal.ads;
+
+import android.webkit.WebResourceResponse;
+import android.webkit.WebView;
+import androidx.annotation.Nullable;
+import com.vungle.ads.internal.Constants;
+import java.io.File;
+import java.util.Collections;
+import java.util.Map;
+/* compiled from: com.google.android.gms:play-services-ads@@24.5.0 */
+/* loaded from: classes4.dex */
+public class zzcgo extends zzcfo {
+    public zzcgo(zzcfg zzcfgVar, zzbcc zzbccVar, boolean z10, @Nullable zzecl zzeclVar) {
+        super(zzcfgVar, zzbccVar, z10, new zzbst(zzcfgVar, zzcfgVar.zzE(), new zzbcm(zzcfgVar.getContext())), null, zzeclVar);
+    }
+
+    /* JADX INFO: Access modifiers changed from: protected */
+    @Nullable
+    public final WebResourceResponse zzY(WebView webView, String str, @Nullable Map map) {
+        String str2;
+        if (!(webView instanceof zzcfg)) {
+            int i10 = com.google.android.gms.ads.internal.util.zze.zza;
+            com.google.android.gms.ads.internal.util.client.zzo.zzj("Tried to intercept request from a WebView that wasn't an AdWebView.");
+            return null;
+        }
+        zzcfg zzcfgVar = (zzcfg) webView;
+        zzbya zzbyaVar = this.zza;
+        if (zzbyaVar != null) {
+            zzbyaVar.zze(str, map, 1);
+        }
+        zzfqs.zza();
+        zzfqy zzfqyVar = zzfqy.zza;
+        if (!Constants.AD_MRAID_JS_FILE_NAME.equalsIgnoreCase(new File(str).getName())) {
+            if (map == null) {
+                map = Collections.emptyMap();
+            }
+            return super.zzc(str, map);
+        }
+        if (zzcfgVar.zzN() != null) {
+            zzcfgVar.zzN().zzI();
+        }
+        if (zzcfgVar.zzO().zzi()) {
+            str2 = (String) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzaf);
+        } else if (zzcfgVar.zzaF()) {
+            str2 = (String) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzae);
+        } else {
+            str2 = (String) com.google.android.gms.ads.internal.client.zzbd.zzc().zzb(zzbde.zzad);
+        }
+        com.google.android.gms.ads.internal.zzv.zzr();
+        return com.google.android.gms.ads.internal.util.zzs.zzy(zzcfgVar.getContext(), zzcfgVar.zzm().afmaVersion, str2);
+    }
+}

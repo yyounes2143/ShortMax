@@ -1,0 +1,53 @@
+.class public final synthetic Lrk/f;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function1;
+
+
+# instance fields
+.field public final synthetic a:Lcom/startshorts/androidplayer/viewmodel/billing/BillingViewModel;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/startshorts/androidplayer/viewmodel/billing/BillingViewModel;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lrk/f;->a:Lcom/startshorts/androidplayer/viewmodel/billing/BillingViewModel;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lrk/f;->a:Lcom/startshorts/androidplayer/viewmodel/billing/BillingViewModel;
+
+    .line 2
+    .line 3
+    check-cast p1, Lcom/startshorts/androidplayer/bean/subs/GPayExchangePremiumResult$RechargeUserInfo;
+
+    .line 4
+    .line 5
+    invoke-static {v0, p1}, Lcom/startshorts/androidplayer/viewmodel/billing/BillingViewModel$b;->k(Lcom/startshorts/androidplayer/viewmodel/billing/BillingViewModel;Lcom/startshorts/androidplayer/bean/subs/GPayExchangePremiumResult$RechargeUserInfo;)Lkotlin/Unit;
+
+    .line 6
+    .line 7
+    .line 8
+    move-result-object p1
+
+    .line 9
+    return-object p1
+.end method

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout android:id="@id/refresh_layout" android:tag="layout/fragment_coins_record_0" android:layout_width="fill_parent" android:layout_height="fill_parent" app:tr_enable_loadmore="false" app:tr_enable_overscroll="false" app:tr_enable_refresh="false" app:tr_floatRefresh="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/recycler_view_viewstub" android:layout="@layout/viewstub_recycler_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.hades.aar.pagestate.StateViewGroup android:id="@id/page_state_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>

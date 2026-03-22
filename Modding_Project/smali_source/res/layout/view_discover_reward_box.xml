@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/box_iv" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="8.0dip" android:contentDescription="@string/unlock_episode_dialog_fragment_watch_ads" android:layout_marginStart="12.0dip" android:layout_marginEnd="16.0dip" android:layout_toEndOf="@id/tip_tv" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:lottie_autoPlay="true" app:lottie_fileName="animation/home_reward/home_reward.json" app:lottie_imageAssetsFolder="animation/home_reward/images/" app:lottie_loop="true" />
+        <com.startshorts.androidplayer.ui.view.base.BaseTextView android:textSize="11.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/tip_tv" android:background="@drawable/bg_reward_tip_in_discover_new" android:paddingLeft="7.0dip" android:paddingRight="7.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="18.0dip" android:layout_marginTop="-6.0dip" android:layout_marginEnd="-10.0dip" android:paddingHorizontal="7.0dip" app:custom_typeface="@string/typeface_bold" app:layout_constraintEnd_toEndOf="@id/box_iv" app:layout_constraintTop_toTopOf="@id/box_iv" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

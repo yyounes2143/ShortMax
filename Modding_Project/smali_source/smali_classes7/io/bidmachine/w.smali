@@ -1,0 +1,50 @@
+.class public final synthetic Lio/bidmachine/w;
+.super Ljava/lang/Object;
+.source "R8$$SyntheticClass"
+
+# interfaces
+.implements Lio/bidmachine/Executable;
+
+
+# instance fields
+.field public final synthetic a:Lfr/a;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lfr/a;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lio/bidmachine/w;->a:Lfr/a;
+
+    .line 5
+    .line 6
+    return-void
+.end method
+
+
+# virtual methods
+.method public final execute(Ljava/lang/Object;)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lio/bidmachine/w;->a:Lfr/a;
+
+    .line 2
+    .line 3
+    check-cast p1, Lio/bidmachine/AdProcessCallback;
+
+    .line 4
+    .line 5
+    invoke-static {v0, p1}, Lio/bidmachine/u$d;->j(Lfr/a;Lio/bidmachine/AdProcessCallback;)V
+
+    .line 6
+    .line 7
+    .line 8
+    return-void
+.end method

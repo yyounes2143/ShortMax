@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@+id/item_container" android:tag="layout/item_discover_main_1_row_2_column_container_0" android:layout_width="wrap_content" android:layout_height="wrap_content"/>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/act_root" android:tag="layout/activity_act_0" android:background="@color/color_common_page_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:importantForAccessibility="no">
+    <androidx.cardview.widget.CardView android:id="@+id/act_card_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/act_webview_container" android:layout_width="match_parent" android:layout_height="match_parent">
+            <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/toolbar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@+id/act_webview" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_chainStyle="packed">
+                <ImageView android:id="@+id/back_iv" android:padding="10dp" android:layout_width="@dimen/ic_back_height" android:layout_height="@dimen/ic_back_height" android:src="@drawable/ic_webview_back" android:contentDescription="@string/back" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0"/>
+                <ImageView android:id="@+id/title_iv" android:layout_width="96dp" android:layout_height="22dp" android:src="@drawable/ic_webview_title" android:importantForAccessibility="no" app:layout_constraintBottom_toBottomOf="@+id/back_iv" app:layout_constraintEnd_toEndOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="@+id/back_iv"/>
+                <ImageView android:id="@+id/refresh_iv" android:padding="12dp" android:layout_width="@dimen/ic_back_height" android:layout_height="@dimen/ic_back_height" android:src="@drawable/ic_webview_refresh" android:contentDescription="@string/restore_tip_view_refresh" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0"/>
+                <android.widget.ProgressBar android:id="@+id/load_process_progress_bar" android:layout_width="match_parent" android:layout_height="2dp" android:progressTint="@color/colorPrimary" app:layout_constraintBottom_toBottomOf="0" style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <WebView android:id="@+id/act_webview" android:layout_width="match_parent" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintHorizontal_weight="1" app:layout_constraintTop_toBottomOf="@+id/toolbar_layout"/>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

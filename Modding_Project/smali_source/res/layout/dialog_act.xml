@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:tag="layout/dialog_act_0" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.startshorts.androidplayer.ui.view.fresco.CustomFrescoView android:id="@id/act_resource_iv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:contentDescription="@string/cover_pic" app:layout_constraintBottom_toTopOf="@id/close_iv" app:layout_constraintDimensionRatio="w,1.1466:1" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_chainStyle="packed" />
+    <ImageView android:id="@id/close_iv" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ic_check_in_result_close" android:scaleType="centerInside" android:contentDescription="@string/close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/act_resource_iv" />
+</androidx.constraintlayout.widget.ConstraintLayout>
