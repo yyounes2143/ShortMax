@@ -4883,12 +4883,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/startshorts/androidplayer/repo/account/AccountRepo;->z0()Z
-
-    .line 9
-    .line 10
-    .line 11
-    move-result v0
+    const/4 v0, 0x1
 
     .line 12
     if-nez v0, :cond_0

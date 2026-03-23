@@ -330,7 +330,12 @@
 
 .method public final getAutoUnlock()Z
     .locals 1
-    const/4 v0, 0x1
+
+    .line 1
+    iget-boolean v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->autoUnlock:Z
+
+    .line 2
+    .line 3
     return v0
 .end method
 
@@ -338,7 +343,12 @@
     .locals 1
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
-    const v0, 0xf423f
+
+    .line 1
+    iget v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->bonus:I
+
+    .line 2
+    .line 3
     return v0
 .end method
 
@@ -396,7 +406,12 @@
     .locals 1
     .annotation runtime Landroidx/databinding/Bindable;
     .end annotation
-    const v0, 0xf423f
+
+    .line 1
+    iget v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->coins:I
+
+    .line 2
+    .line 3
     return v0
 .end method
 
