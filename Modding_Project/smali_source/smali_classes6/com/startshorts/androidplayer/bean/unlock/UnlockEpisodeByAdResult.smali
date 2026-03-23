@@ -278,12 +278,7 @@
 
 .method public final getCanWatchAdNum()I
     .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/startshorts/androidplayer/bean/unlock/UnlockEpisodeByAdResult;->canWatchAdNum:I
-
-    .line 2
-    .line 3
+    const/16 v0, 0x63
     return v0
 .end method
 
@@ -302,12 +297,7 @@
 
 .method public final getTotalWatchAdNum()I
     .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/startshorts/androidplayer/bean/unlock/UnlockEpisodeByAdResult;->totalWatchAdNum:I
-
-    .line 2
-    .line 3
+    const/16 v0, 0x63
     return v0
 .end method
 

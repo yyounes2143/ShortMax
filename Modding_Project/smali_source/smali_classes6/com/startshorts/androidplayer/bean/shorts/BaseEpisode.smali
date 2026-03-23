@@ -2895,52 +2895,19 @@
 
 .method public final isLocked()Z
     .locals 2
-
-    .line 1
-    invoke-virtual {p0}, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->isTrailer()Z
-
-    .line 2
-    .line 3
-    .line 4
+    iget-object v0, p0, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->videoUrl:Ljava/lang/String;
+    if-nez v0, :is_not_null
+    :is_locked
+    const/4 v1, 0x1
+    return v1
+    :is_not_null
+    invoke-virtual {v0}, Ljava/lang/String;->length()I
     move-result v0
-
-    .line 5
+    if-nez v0, :is_unlocked
+    goto :is_locked
+    :is_unlocked
     const/4 v1, 0x0
-
-    .line 6
-    if-eqz v0, :cond_0
-
-    .line 7
-    .line 8
     return v1
-
-    .line 9
-    :cond_0
-    invoke-virtual {p0}, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->isVipFree()Z
-
-    .line 10
-    .line 11
-    .line 12
-    move-result v0
-
-    .line 13
-    if-eqz v0, :cond_1
-
-    .line 14
-    .line 15
-    return v1
-
-    .line 16
-    :cond_1
-    invoke-virtual {p0}, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->isRealLocked()Z
-
-    .line 17
-    .line 18
-    .line 19
-    move-result v0
-
-    .line 20
-    return v0
 .end method
 
 .method public final isMembersOnly()Z

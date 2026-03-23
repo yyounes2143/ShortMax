@@ -4028,7 +4028,7 @@
     move-result-object p1
 
     .line 185
-    invoke-direct {p0, v0, v1, v2, p1}, Lcom/startshorts/androidplayer/viewmodel/immersion/UnlockViewModel;->z0(Landroid/content/Context;ZZLjava/lang/String;)V
+    invoke-direct {p0, v0, v1, p1}, Lcom/startshorts/androidplayer/viewmodel/immersion/UnlockViewModel;->y0(Landroid/content/Context;ZLjava/lang/String;)Lkotlinx/coroutines/r;
 
     .line 186
     .line 187
