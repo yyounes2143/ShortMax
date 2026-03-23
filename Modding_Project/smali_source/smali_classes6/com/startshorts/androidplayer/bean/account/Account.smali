@@ -675,14 +675,7 @@
 
 .method public final getHasSubscription()Z
     .locals 1
-    .annotation runtime Landroidx/databinding/Bindable;
-    .end annotation
-
-    .line 1
-    iget-boolean v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->hasSubscription:Z
-
-    .line 2
-    .line 3
+    const/4 v0, 0x1
     return v0
 .end method
 
@@ -801,12 +794,7 @@
 
 .method public final getSubscriptionType()I
     .locals 1
-
-    .line 1
-    iget v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->subscriptionType:I
-
-    .line 2
-    .line 3
+    const/4 v0, 0x7
     return v0
 .end method
 
@@ -968,12 +956,7 @@
 
 .method public final isPaid()Z
     .locals 1
-
-    .line 1
-    iget-boolean v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->isPaid:Z
-
-    .line 2
-    .line 3
+    const/4 v0, 0x1
     return v0
 .end method
 
@@ -1113,74 +1096,14 @@
 .end method
 
 .method public final isSubsExpired()Z
-    .locals 4
-
-    .line 1
-    iget-wide v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->subscriptionEndTime:J
-
-    .line 2
-    .line 3
-    const-wide/16 v2, -0x1
-
-    .line 4
-    .line 5
-    cmp-long v2, v0, v2
-
-    .line 6
-    .line 7
-    if-eqz v2, :cond_1
-
-    .line 8
-    .line 9
-    sget-object v2, Lcom/startshorts/androidplayer/utils/DeviceUtil;->a:Lcom/startshorts/androidplayer/utils/DeviceUtil;
-
-    .line 10
-    .line 11
-    invoke-virtual {v2}, Lcom/startshorts/androidplayer/utils/DeviceUtil;->K()J
-
-    .line 12
-    .line 13
-    .line 14
-    move-result-wide v2
-
-    .line 15
-    cmp-long v0, v0, v2
-
-    .line 16
-    .line 17
-    if-gez v0, :cond_0
-
-    .line 18
-    .line 19
-    goto :goto_0
-
-    .line 20
-    :cond_0
+    .locals 1
     const/4 v0, 0x0
-
-    .line 21
-    goto :goto_1
-
-    .line 22
-    :cond_1
-    :goto_0
-    const/4 v0, 0x1
-
-    .line 23
-    :goto_1
     return v0
 .end method
 
 .method public final isSubscription()Z
     .locals 1
-    .annotation runtime Landroidx/databinding/Bindable;
-    .end annotation
-
-    .line 1
-    iget-boolean v0, p0, Lcom/startshorts/androidplayer/bean/account/Account;->isSubscription:Z
-
-    .line 2
-    .line 3
+    const/4 v0, 0x1
     return v0
 .end method
 
