@@ -500,45 +500,9 @@
 .end method
 
 .method public final isSelectAble()Z
-    .locals 3
-
-    .line 1
-    iget-object v0, p0, Lcom/startshorts/androidplayer/bean/shorts/DownloadActivityListItem;->downloadInfo:Lcom/startshorts/androidplayer/bean/download/DownloadTaskInfo;
-
-    .line 2
-    .line 3
-    const/4 v1, 0x1
-
-    .line 4
-    if-eqz v0, :cond_1
-
-    .line 5
-    .line 6
-    invoke-virtual {v0}, Lcom/startshorts/androidplayer/bean/download/DownloadTaskInfo;->getDownloadState()I
-
-    .line 7
-    .line 8
-    .line 9
-    move-result v0
-
-    .line 10
-    const/4 v2, 0x6
-
-    .line 11
-    if-ne v0, v2, :cond_0
-
-    .line 12
-    .line 13
-    goto :goto_0
-
-    .line 14
-    :cond_0
-    const/4 v1, 0x0
-
-    .line 15
-    :cond_1
-    :goto_0
-    return v1
+    .locals 1
+    const/4 v0, 0x1
+    return v0
 .end method
 
 .method public final setDownloadInfo(Lcom/startshorts/androidplayer/bean/download/DownloadTaskInfo;)V
