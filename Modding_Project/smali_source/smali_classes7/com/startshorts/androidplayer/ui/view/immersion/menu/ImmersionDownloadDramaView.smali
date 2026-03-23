@@ -150,11 +150,6 @@
 
     .line 8
     .line 9
-
-
-    .line 10
-    .line 11
-    .line 12
     const/4 v0, 0x0
 
     .line 13
@@ -289,11 +284,6 @@
 
     .line 7
     .line 8
-
-
-    .line 9
-    .line 10
-    .line 11
     const/4 v0, 0x0
 
     .line 12

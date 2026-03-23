@@ -2896,11 +2896,11 @@
 .method public final isLocked()Z
     .locals 2
     iget-object v0, p0, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->videoUrl:Ljava/lang/String;
-    if-nez v0, :is_not_null
+    if-nez v0, :check_len
     :is_locked
     const/4 v1, 0x1
     return v1
-    :is_not_null
+    :check_len
     invoke-virtual {v0}, Ljava/lang/String;->length()I
     move-result v0
     if-nez v0, :is_unlocked
