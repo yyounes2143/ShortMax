@@ -150,12 +150,12 @@
 
     .line 8
     .line 9
-    invoke-virtual {v0}, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->isLocked()Z
+
 
     .line 10
     .line 11
     .line 12
-    move-result v0
+    const/4 v0, 0x0
 
     .line 13
     const/4 v1, 0x1
@@ -289,12 +289,12 @@
 
     .line 7
     .line 8
-    invoke-virtual {p1}, Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;->isLocked()Z
+
 
     .line 9
     .line 10
     .line 11
-    move-result v0
+    const/4 v0, 0x0
 
     .line 12
     if-nez v0, :cond_1
