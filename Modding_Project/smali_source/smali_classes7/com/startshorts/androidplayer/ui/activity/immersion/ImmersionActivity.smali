@@ -6475,14 +6475,105 @@
 .end method
 
 .method private final Ha(Ljava/lang/String;Ljava/lang/String;)V
-    .locals 2
-    invoke-virtual {p0}, Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;->D5()Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;
-    move-result-object v0
-    if-nez v0, :cond_0
+    .locals 7
+
+    .line 1
+    iget-boolean v0, p0, Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;->o0:Z
+
+    .line 2
+    .line 3
+    if-eqz v0, :cond_0
+
+    .line 4
+    .line 5
+    const-string p1, "showUnlockEpisodeMethodDialog failed -> mOnBackPressed is true"
+
+    .line 6
+    .line 7
+    invoke-virtual {p0, p1}, Lcom/startshorts/androidplayer/ui/activity/base/BaseActivity;->m(Ljava/lang/String;)V
+
+    .line 8
+    .line 9
+    .line 10
     return-void
+
+    .line 11
     :cond_0
-    const/4 v1, 0x0
-    invoke-direct {p0, v0, v1, p1}, Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;->Va(Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;ZLjava/lang/String;)V
+    const-string v0, "SubsProExpiredDialog"
+
+    .line 12
+    .line 13
+    invoke-direct {p0, v0}, Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;->m7(Ljava/lang/String;)Z
+
+    .line 14
+    .line 15
+    .line 16
+    move-result v0
+
+    .line 17
+    if-eqz v0, :cond_1
+
+    .line 18
+    .line 19
+    const-string p1, "showUnlockEpisodeMethodDialog failed -> SubsProExpiredDialog is showing"
+
+    .line 20
+    .line 21
+    invoke-virtual {p0, p1}, Lcom/startshorts/androidplayer/ui/activity/base/BaseActivity;->m(Ljava/lang/String;)V
+
+    .line 22
+    .line 23
+    .line 24
+    return-void
+
+    .line 25
+    :cond_1
+    invoke-direct {p0}, Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;->D5()Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;
+
+    .line 26
+    .line 27
+    .line 28
+    move-result-object v0
+
+    .line 29
+    if-nez v0, :cond_2
+
+    .line 30
+    .line 31
+    return-void
+
+    .line 32
+    :cond_2
+    new-instance v4, Lyh/y;
+
+    .line 33
+    .line 34
+    invoke-direct {v4, p0, p1, v0, p2}, Lyh/y;-><init>(Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;Ljava/lang/String;Lcom/startshorts/androidplayer/bean/shorts/BaseEpisode;Ljava/lang/String;)V
+
+    .line 35
+    .line 36
+    .line 37
+    const/4 v5, 0x2
+
+    .line 38
+    const/4 v6, 0x0
+
+    .line 39
+    const-string v2, "UnlockEpisodeMethodDialog"
+
+    .line 40
+    .line 41
+    const/4 v3, 0x0
+
+    .line 42
+    move-object v1, p0
+
+    .line 43
+    invoke-static/range {v1 .. v6}, Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;->B9(Lcom/startshorts/androidplayer/ui/activity/immersion/ImmersionActivity;Ljava/lang/String;Ljava/util/HashMap;Lkotlin/jvm/functions/Function1;ILjava/lang/Object;)V
+
+    .line 44
+    .line 45
+    .line 46
     return-void
 .end method
 
