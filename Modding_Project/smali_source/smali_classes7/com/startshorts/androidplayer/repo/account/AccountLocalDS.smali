@@ -2704,9 +2704,61 @@
 .end method
 
 .method public final c()Z
-    .locals 1
-    const/4 v0, 0x1
-    return v0
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, Lcom/startshorts/androidplayer/repo/account/AccountLocalDS;->a:Ljava/lang/Object;
+
+    .line 2
+    .line 3
+    monitor-enter v0
+
+    .line 4
+    :try_start_0
+    iget-object v1, p0, Lcom/startshorts/androidplayer/repo/account/AccountLocalDS;->b:Lcom/startshorts/androidplayer/bean/account/Account;
+
+    .line 5
+    .line 6
+    if-eqz v1, :cond_0
+
+    .line 7
+    .line 8
+    invoke-virtual {v1}, Lcom/startshorts/androidplayer/bean/account/Account;->getAutoUnlock()Z
+
+    .line 9
+    .line 10
+    .line 11
+    move-result v1
+    :try_end_0
+    .catchall {:try_start_0 .. :try_end_0} :catchall_0
+
+    .line 12
+    goto :goto_0
+
+    .line 13
+    :catchall_0
+    move-exception v1
+
+    .line 14
+    goto :goto_1
+
+    .line 15
+    :cond_0
+    const/4 v1, 0x0
+
+    .line 16
+    :goto_0
+    monitor-exit v0
+
+    .line 17
+    return v1
+
+    .line 18
+    :goto_1
+    monitor-exit v0
+
+    .line 19
+    throw v1
 .end method
 
 .method public final c0(ZZ)Lcom/startshorts/androidplayer/bean/account/Account;
