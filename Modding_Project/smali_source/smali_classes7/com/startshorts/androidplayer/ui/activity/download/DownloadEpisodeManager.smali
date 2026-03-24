@@ -4883,7 +4883,7 @@
 
     .line 7
     .line 8
-    invoke-virtual {v0}, Lcom/startshorts/androidplayer/repo/account/AccountRepo;->z0()Z
+    const/4 v0, 0x1
 
     .line 9
     .line 10
@@ -4905,7 +4905,6 @@
     .line 18
     :cond_0
     move-object v0, p2
-
     .line 19
     check-cast v0, Ljava/util/Collection;
 
