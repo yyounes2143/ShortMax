@@ -10763,12 +10763,10 @@
 
     .line 60
     :cond_4
-    sget-object v0, Lcom/startshorts/androidplayer/repo/account/AccountRepo;->a:Lcom/startshorts/androidplayer/repo/account/AccountRepo;
+    const/4 v0, 0x1
 
     .line 61
     .line 62
-    const/4 v0, 0x1
-
     .line 63
     .line 64
     .line 65

@@ -4879,17 +4879,13 @@
     .line 4
     .line 5
     .line 6
-    sget-object v0, Lcom/startshorts/androidplayer/repo/account/AccountRepo;->a:Lcom/startshorts/androidplayer/repo/account/AccountRepo;
+    const/4 v0, 0x1
 
     .line 7
     .line 8
-    const/4 v0, 0x1
-
     .line 9
     .line 10
     .line 11
-    move-result v0
-
     .line 12
     if-nez v0, :cond_0
 
